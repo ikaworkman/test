@@ -1,0 +1,3203 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<rules>
+<config>
+    <configItem key="ika_rule_version" value="151_drop_box"/>
+    
+	<configItem key="bank_list_to_show" value="03080000,01050000"/>
+    <configItem key="bank_list_bank_code_of_cmb" value="03080000"/>
+	<configItem key="bank_list_bank_code_of_ccb" value="01050000"/>
+	<configItem key="bank_list_bank_pay_step_2_success_msg_of_ccb" value="'status':'true'"/>
+	
+	<configItem key="ticket_detail_passenger_tickets" value="selectSeatTypeIndex,seatDetail,selectTicketTypeIndex,passengerName,selectCardTypeIndex,cetificateNum,mobile,mIsSaveAsContact"/>
+	<configItem key="ticket_detail_passenger_info_index" value="7,13,6,3,11,4,0"/>
+	<configItem key="ticket_detail_passenger_info_length" value="13"/>
+	<configItem key="ticket_list_ticket_base_info" value="0,1,2,3,4,5,6,7,8,11,12,9,10,13,0,0,0,0"/>
+    <configItem key="ticket_list_ticket_base_size" value="14"/>
+    <configItem key="ticket_list_ticket_base_info_trainno3_index_when_not_enable" value="3"/>
+    
+	<configItem key="ticket_list_ticket_left_info_new" value="7,8,9,10,11,12,13,14,15,16,17,18"/>
+	<configItem key="ticket_list_ticket_left_size_new" value="18"/> 
+    <configItem key="ticket_list_ticket_base_info_in_left" value="1,6,3,2,5,4"/>
+    <configItem key="ticket_list_ticket_char_no_such_ticket_class" value="--"/>
+    <configItem key="ticket_list_ticket_char_have_tickets" value="有"/>
+    <configItem key="ticket_list_ticket_char_no_ticket" value="无"/>
+    <configItem key="ticket_list_ticket_char_ticket_can_not_sale" value="*"/>
+    <configItem key="ticket_list_ticket_max_day_limit" value="25"/> 
+    <configItem key="ticket_list_ticket_which_action" value="1"/>
+    
+    <configItem key="notice_service_ticket_list_ticket_base_info" value="0,1,2"/>
+    <configItem key="notice_service_ticket_list_ticket_base_size" value="3"/>
+
+	<configItem key="station_list_info" value="3,1,2,5,3,0"/>
+	<configItem key="station_list_hot_city_code_name" value="BJP,北京,SHH,上海,TJP,天津,NJH,南京,GZQ,广州,SZQ,深圳,FZS,福州,WHN,武汉,HZH,杭州,SYT,沈阳,CDW,成都,CQW,重庆,CSQ,长沙,XAY,西安,ZZF,郑州"/>
+	<configItem key="station_list_hot_city_code_name_pinyin" value="BJP,北京,beijing@SHH,上海,shanghai@TJP,天津,tianjin@NJH,南京,nanjing@GZQ,广州,guangzhou@SZQ,深圳,shenzhen@FZS,福州,fuzhou@WHN,武汉,wuhan@HZH,杭州,hangzhou@SYT,沈阳,shenyang@CDW,成都,chengdu@CQW,重庆,chongqing@CSQ,长沙,changsha@XAY,西安,xian@ZZF,郑州,zhengzhou"/>
+    
+    <configItem key="order_list_complete_order_search_months" value="5"/>
+	
+	<configItem key="host_12306_domian" value="https://kyfw.12306.cn"/>
+	<configItem key="host_12306_http_domian" value="http://kyfw.12306.cn"/>
+	<configItem key="host_epay_12306_domian" value="https://epay.12306.cn"/>
+	<configItem key="host_ccb_domian" value="https://ibsbjstar.ccb.com.cn"/>
+	<configItem key="host_cmb_domian" value="https://netpay.cmbchina.com"/>
+	<configItem key="host_unionpay_domian" value="https://unionpaysecure.com"/>
+    <configItem key="host_comm_domian" value="https://pay.95559.com.cn"/>
+	
+	<configItem key="ticket_detail_you_have_uncompleted_order_msg" value="您还有未处理的订单"/> 
+	
+	<configItem key="uri_12306_uncomplete_orders" value="https://kyfw.12306.cn/otn/queryOrder/initNoComplete"/>
+	<configItem key="uri_12306_complete_orders" value="https://kyfw.12306.cn/otn/queryOrder/init"/>
+	
+	<configItem key="complete_order_title_array_length" value="6"/>
+	<configItem key="complete_order_title_array_length_2" value="5"/>
+	
+	<configItem key="advertise_whether_show_advertisement" value="MOGO"/>
+    <configItem key="advertise_whether_show_login_advertisement" value="MOGO"/>
+    <configItem key="advertise_whether_show_search_main_advertisement" value="MOGO"/>
+    <configItem key="advertise_whether_show_about_advertisement" value="MOGO"/>
+    
+	<configItem key="order_list_uncomplete_wait_order_sequence_num" value="waiting_order"/>
+	<configItem key="availability_show" value="Y"/>
+	
+	<configItem key="ticket_detail_is_show_remain_ticket_dlg_before_submit" value="N"/>
+	
+	<configItem key="ticket_detail_res_ticket_detail_login_timeout_string" value="登录"/>
+	
+	<configItem key="order_list_res_order_list_uncompleted_order_get_error_msg" value="尚有订单未支付"/>
+	
+	<configItem key="stop_list_stop_info" value="4,2,0,1,3,5"/>
+	
+	<configItem key="pay_cmb_card_type_code_credit_card" value="C"/>
+	<configItem key="pay_cmb_card_type_code_common_card" value="A"/>
+	
+	<configItem key="ticket_detail_tips_if_contain_string" value="非法"/>
+	<configItem key="ticket_detail_tips_replace_string" value="提交订单失败"/>
+    
+    <configItem key="flight_whether_show_flight" value="Y"/>
+    <configItem key="flight_flight_detail_post_itinerary_money" value="10"/>
+    <configItem key="flight_flight_detail_insurence_money" value="20"/>
+    
+    <configItem key="order_resign_old_ticket_info_index" value="0,1,2,3,4,5,7,8,10,11,12,13,14,15"/>
+    <configItem key="order_resign_old_ticket_info_length" value="16"/>
+    
+    <configItem key="order_list_uncomplete_order_resign_status" value="改签待支付"/>
+    <configItem key="order_list_completed_order_resigned_status" value="已改签"/>
+    <configItem key="order_resign_determine_if_need_pay_string" value="45分钟内完成全额 新票票款的网上支"/>
+    
+    <configItem key="ccb_pay_success_remain_info_contain" value="以下是您的支付信息"/>
+    <configItem key="cmb_pay_success_remain_info_contain" value="一步操作步骤已经通过短信发送到您的手"/>
+    
+    <configItem key="submit_success_ticket_info_array_index" value="0,1,2,3,4,5,6,7,8,9,10,11"/>
+    <configItem key="submit_success_ticket_info_array_item_length" value="12"/>
+    
+    <configItem key="order_list_uncomplete_order_array_index" value="0,1,2,3,4,5,6,7,8,9,10,11,12"/>
+    <configItem key="order_list_uncomplete_order_array_length" value="13"/>
+    <configItem key="order_list_uncomplete_order_whether_use_new_ui" value="Y"/>
+    
+    <configItem key="order_list_completed_order_array_index" value="1,2,3,4,5,6,7,8,9,10,11,12,13,14,15"/>
+    <configItem key="order_list_completed_order_array_length" value="15"/>
+    <configItem key="order_list_completed_order_whether_use_new_ui" value="Y"/>
+    
+    <configItem key="train_finder_core_version" value="2"/>
+    <configItem key="train_finder_core_download_url" value="https://dl.dropboxusercontent.com/s/nr74bkyimdujeeg/ika_core_151.jar"/>
+    
+    <configItem key="order_list_completed_order_status_had_payed_order" value="已支付"/>
+    <configItem key="order_list_completed_order_status_had_resign_order" value="改签票"/>
+    <configItem key="order_list_completed_order_action_refund_order" value="退票"/>
+    
+    <configItem key="order_pay_ika_is_use_ika_server_on_off_pay" value="Y"/>
+    
+    <configItem key="pay_bank_list_is_show_ika_pay" value="Y"/>
+    <configItem key="pay_bank_list_is_open_ika_pay" value="Y"/>
+    <configItem key="pay_bank_list_ika_pay_time" value="7,0,23,0"/>
+    <configItem key="pay_bank_list_ika_pay_time_tips_message" value="07:00-23:00之间支付"/>
+    <configItem key="pay_ika_tips_when_ika_pay_turn_off" value="由于业务繁忙，暂时关闭支付宝支付，请稍后尝试"/>
+    
+    <configItem key="pay_bank_list_is_open_cmb_pay" value="Y"/>
+    <configItem key="pay_bank_list_close_cmb_pay_tips_msg" value="暂时关闭招行支付渠道"/>
+    
+    <configItem key="pay_bank_list_is_open_ccb_pay" value="Y"/>
+    <configItem key="pay_bank_list_close_ccb_pay_tips_msg" value="暂时关闭建行支付渠道"/>
+    
+    <configItem key="pay_bank_list_is_show_comm_pay" value="Y"/>
+    <configItem key="pay_bank_list_is_open_comm_pay" value="Y"/>
+    <configItem key="pay_bank_list_close_comm_pay_tips_msg" value="暂时关闭交通银行支付渠道"/>
+    
+    <configItem key="pay_bank_list_is_show_spd_pay" value="Y"/>
+    <configItem key="pay_bank_list_is_open_spd_pay" value="Y"/>
+    <configItem key="pay_bank_list_close_spd_pay_tips_msg" value="暂时关闭浦发银行支付渠道"/>
+    
+    <configItem key="pay_bank_list_is_show_ceb_pay" value="Y"/>
+    <configItem key="pay_bank_list_is_open_ceb_pay" value="Y"/>
+    <configItem key="pay_bank_list_close_ceb_pay_tips_msg" value="暂时关闭光大银行支付渠道"/>
+    
+    <configItem key="pay_bank_list_is_show_alipay_pay" value="Y"/>
+    <configItem key="pay_bank_list_is_open_alipay_pay" value="Y"/>
+    <configItem key="pay_bank_list_close_alipay_pay_tips_msg" value="暂时关闭交支付宝支付渠道"/>
+    
+    <configItem key="order_submit_success_ticket_array_index" value="0,1,2,3,4,5,7,8,10,11,12,13,14,15"/>
+    <configItem key="order_submit_success_ticket_array_index_for_resign" value="0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15"/>
+    <configItem key="order_submit_success_ticket_array_length" value="16"/>
+    <configItem key="order_submit_success_ticket_array_length_for_resign" value="14"/>
+    
+    <configItem key="order_submit_success_relady_resigned_ticket_array_index_for_resign" value="0,1,1,2,3,4,5,6,7,8,9,10,11,12,0,0"/>
+    <configItem key="order_submit_success_relady_resigned_ticket_array_length_for_resign" value="13"/>
+    
+    <configItem key="ticket_list_train_pass_type_all_code" value="QB#D#Z#T#K#QT#"/>
+    <configItem key="ticket_list_train_pass_type_only_d_g_code" value="D#"/>
+    
+    <configItem key="order_pay_limit_time_for_ika" value="48"/>
+    <configItem key="order_pay_limit_time_count_pre_time_length_for_ika" value="15"/>
+    
+    <configItem key="splash_img_is_use_net_splash_img" value="Y"/>
+    
+    <configItem key="pay_ika_is_confirm_user_mobile_correct_for_insurence" value="N"/>
+    
+    <configItem key="login_param_encrypt_html_value" value="1111"/>
+    
+    <configItem key="order_list_uncomplete_go_and_back_1_array_length" value="16"/>
+    <configItem key="order_list_uncomplete_go_and_back_2_array_length" value="13"/>
+    <configItem key="order_list_uncomplete_go_and_back_1_array_index" value="0,1,2,3,4,5,7,8,10,11,12,13,14,15"/>
+    <configItem key="order_list_uncomplete_go_and_back_2_array_index" value="0,1,2,4,5,7,8,9,10,11,12"/>
+    
+    <configItem key="submit_order_error_msg_already_has_order" value="您还有未处理的订单"/>
+    <configItem key="submit_order_error_msg_ticket_list_out_of_time" value="重新查询最新"/>
+    <configItem key="submit_order_error_msg_account_not_active" value="用户没有激活"/>
+    <configItem key="register_success_tips_message" value="N"/>
+    
+    <configItem key="bank_list_tips_view_is_show" value="N"/>
+    <configItem key="bank_list_tips_view_content" value="那只灰色的狐狸越过那只母狗  bank list view "/>
+    
+    <configItem key="pay_ika_tips_in_ccb_page" value="N"/>
+    <configItem key="pay_ika_tips_in_cmb_page" value="N"/>
+    <configItem key="pay_ika_tips_in_aliypay_page" value="*支付成功后，我们将在&#060;font color=&#034;#EE4D1E&#034;&#062;20分钟&#060;/font&#062;内反馈支付宝代付结果，请耐心等待；&lt;br&gt;*&#060;font color=&#034;#EE4D1E&#034;&#062;改签&#060;/font&#062;：用户改签车票后，请及时通知客服（4008889171）报备。如未及时通知，保险失效，一旦出险，自行承担后果；&lt;br&gt;*&#060;font color=&#034;#EE4D1E&#034;&#062;退保&#060;/font&#062;：用户在火车票达人以外的渠道退票后，需不晚于发车前3小时通知客服（4008889171）申请退保"/>
+    <configItem key="pay_tips_msg_in_uncomplete_order_when_ika_paied" value="我们将在&#060;font color=&#034;#ff0000&#034;&#062;20分钟&#060;/font&#062;内反馈支付宝代付结果，请耐心等待"/>
+    
+    <configItem key="pay_ika_insurance_tips_msg_on_rule_old" value="*&#060;font color=&#034;#ff0000&#034;&#062;改签&#060;/font&#062;：用户改签车票后，请及时通知客服（4008889171）报备。如未及时通知，保险失效，一旦出险，自行承担后果；&lt;br&gt;*&#060;font color=&#034;#ff0000&#034;&#062;退保&#060;/font&#062;：用户在火车票达人以外的渠道退票后，需不晚于发车前3小时通知客服（4008889171）申请退保"></configItem>
+    <configItem key="pay_ika_insurance_tips_msg_on_rule" value="&#038;nbsp;&#038;nbsp;&#038;nbsp;&#038;nbsp;1、产品名称：华泰火车意外伤害保险;&lt;br&gt;&#038;nbsp;&#038;nbsp;&#038;nbsp;&#038;nbsp;2、保额：20元火车意外伤害身故/残疾最高赔付¥40万、火车意外医疗费用最高赔付¥1万。10元火车意外伤害身故/残疾最高赔付¥30万、火车意外医疗费用最高赔付¥2万。5元火车意外伤害身故/残疾最高赔付¥10万、火车意外医疗费用最高赔付¥5千。30元火车意外伤害身故/残疾最高赔付¥60万、火车意外医疗费用最高赔付¥3万。50元火车意外伤害身故/残疾最高赔付¥100万、火车意外医疗费用最高赔付¥5万。未满18周岁的未成年人的“人身意外身故、残疾”的保险金不超过人民币10万元；&lt;br&gt;&#038;nbsp;&#038;nbsp;&#038;nbsp;&#038;nbsp;3、份数限制：同一被保险人乘坐单次客运火车，限购一份；&lt;br&gt;&#038;nbsp;&#038;nbsp;&#038;nbsp;&#038;nbsp;4、保障范围：被保险人每次以乘客身份乘坐合法商业运营的客运火车，自持有效客票踏上对应商业营运的火车车厢时起至抵达目的地走出该火车车厢时止的期间内遭受意外伤害所导致的保险责任；&lt;br&gt;&#038;nbsp;&#038;nbsp;&#038;nbsp;&#038;nbsp;5、年龄：无限制；&lt;br&gt;&#038;nbsp;&#038;nbsp;&#038;nbsp;&#038;nbsp;6、发票：用户选择邮寄保险发票后，发票将在客户出行后10个工作日内用平信邮寄送达；保险定额发票仅作报销凭证，不可作为保单凭证；&lt;br&gt;&#038;nbsp;&#038;nbsp;&#038;nbsp;&#038;nbsp;7、法律效力：数据电文是合法的合同表现形式，电子保单与纸质保单具有同等法律效力，请妥善保存。电子保单可在保险公司网站上查询和下载。"></configItem>
+    <configItem key="pay_ika_insurance_tips_pdf_url_on_rule" value="http://pc.ehuatai.com/upload/fckeditor/境外旅行人身意外伤害保险条款.pdf" />
+    
+    <configItem key="ticket_list_price_list_url_search_day_length" value="18"/>
+    
+    <configItem key="order_refund_confirm_info_index" value="1,3,5,7,9,11,13,15,17,0,0"/>
+    
+    <configItem key="pay_bank_comm_judge_if_first_net_pay_string" value="首次使用该卡的网上支付功能"/>
+    <configItem key="pay_bank_comm_judge_if_common_net_pay_string" value="银行卡号"/>
+    <configItem key="pay_bank_comm_judge_if_send_sms_code_success_string" value="动态密码重发成功"/>
+    <configItem key="pay_bank_comm_judge_if_request_comm_submit_first_net_pay_success" value="支付功能已开通，该笔订单支付成功"/>
+    <configItem key="pay_bank_comm_judge_if_request_comm_submit_common_net_pay_success" value="记住您的授权号"/>
+    
+    <configItem key="pay_bank_alipay_web_open_judge_url" value="mrexcashier.alipay.com/index.htm"/>
+    
+    <configItem key="pur_submit_success_page_tips_message_bofore_submit_truely" value="&#038;nbsp;&#038;nbsp;&#038;nbsp;&#038;nbsp;支付成功后，我们将在&#060;font color=&#034;#ff0000&#034;&#062;60分钟&#060;/font&#062;内反馈代购结果，请耐心等待&lt;br&gt;&#038;nbsp;&#038;nbsp;&#038;nbsp;&#038;nbsp;退票：在车站窗口退票后，需不晚于发车前3小时通知客服（4008889171）申请退保&lt;br&gt;&#038;nbsp;&#038;nbsp;&#038;nbsp;&#038;nbsp;席位随机出票, 卧铺先收取下铺价格, 出票后根据实际票面价格, 退还差价"/>
+    <configItem key="pur_submit_success_page_bank_list_bank_array" value="SDK,WEB"/>
+    
+    <configItem key="pur_is_user_strict_user_cert_num" value="Y"/>
+    
+    <configItem key="pur_is_open_pur_pay_char" value="Y"/>
+    <configItem key="pur_is_use_ika_open_close_pur_pay" value="Y"/>
+    <configItem key="rand_code_is_use_rand_gif_randcode_img" value="Y"/>
+    <configItem key="rand_code_is_open_auto_rand_gif_png_img_char" value="Y"/>
+    <configItem key="ticket_detail_passenger_form_ticket_type_code_for_student" value="3"/>
+    
+</config>
+
+<!-- 登录界面 -->
+<actionList key="list_action_login">
+    
+	<action key="action_verify_code" isShowDialog="N" resultType="stream" encoding="UTF-8" isPost="N">
+        <paramList>
+            <param name="uri" value="/otn/passcodeNew/getPassCodeNew"></param>
+            <param name="module" value="login"></param>
+            <param name="rand" value="sjrand"></param>
+        </paramList>
+        <parserList>
+            <parser storageKey="res_login_verify_code">
+                <rule type="stream_to_stream"></rule>
+            </parser>
+        </parserList>
+        <result>
+            <resultKey>action_verify_code</resultKey>
+        </result>
+    </action>
+	<action key="action_pre_login_randcode_check" isShowDialog="Y" resultType="string" encoding="UTF-8">
+		<paramList>
+			<param name="uri" value="/otn/passcodeNew/checkRandCodeAnsyn"></param>
+			<param name="_json_att" value=""></param>
+            <param name="rand" value="sjrand"></param>
+            <param key="input_login_rand_code" name="randCode"></param>
+			<param name="Referer" value="https://kyfw.12306.cn/otn/leftTicket/init"></param>
+		</paramList>
+		<parserList>
+			<parser storageKey="res_login_pre_login_randcode_check">
+				<rule type="string_to_json"></rule>
+				<rule type="json_to_string" value="data"></rule>
+			</parser>
+		</parserList>
+		<result>
+			<resultKey>action_pre_login_randcode_check</resultKey>
+			<nextActionList>
+                <next expResultKey="res_login_pre_login_randcode_check" expectResultType="equal" expectResultValue="Y" nextActionKey="action_login_step_check_password"></next>
+                <next expectResultType="sys_else" nextActionKey="action_verify_code"></next>
+            </nextActionList>
+		</result>
+	</action>
+	<action key="action_login_step_check_password" resultType="string" encoding="UTF-8">
+		<paramList>
+			<param name="uri" value="/otn/login/loginAysnSuggest"></param>
+			<param key="input_login_user_name" name="loginUserDTO.user_name"></param>
+			<param key="input_login_user_password" name="userDTO.password"></param>
+			<param key="input_login_rand_code" name="randCode"></param>
+			<param name="Referer" value="https://kyfw.12306.cn/otn/login/init"></param>
+		</paramList>
+		<parserList>
+            <parser storageKey="res_login_step_check_password_pass_check">
+                <rule type="string_to_json"></rule>
+                <rule type="json_to_json" value="data"></rule>
+                <rule type="json_to_string" value="loginCheck"></rule>
+            </parser>
+            <parser storageKey="res_login_step_check_password_pass_error_msg">
+                <rule type="string_to_json"></rule>
+                <rule type="json_to_string" value="messages"></rule>
+                <rule type="string_to_string" order="string_remove" value="[&quot;"></rule>
+                <rule type="string_to_string" order="string_remove" value="&quot;]"></rule>
+            </parser>
+		</parserList>
+		<result>
+			<resultKey>action_login_step_check_password</resultKey>
+            <nextActionList>
+                <next expResultKey="res_login_step_check_password_pass_check" expectResultType="equal" expectResultValue="Y" nextActionKey="action_login_step_init_login_info"></next>
+                <next expectResultType="sys_else" nextActionKey="action_verify_code"></next>
+            </nextActionList>
+		</result>
+	</action>
+    <action key="action_login_step_init_login_info" resultType="elements" encoding="UTF-8">
+        <paramList>
+            <param name="uri" value="/otn/index/init"></param>
+            <param name="Referer" value="https://kyfw.12306.cn/otn/login/init"></param>
+        </paramList>
+        <parserList>
+            <parser storageKey="res_login_step_init_login_info_login_name">
+                <rule type="elements_to_string" order="select_element_text" value="a[id=login_user]"></rule>
+            </parser>
+            <parser storageKey="res_login_error_4">
+                <rule type="elements_to_string" order="select_element_data" value="script[language=javascript]"></rule>
+                <rule type="string_to_string" order="string_regex" value=".*var message = &quot;.*"></rule>
+                <rule type="string_to_string" order="string_remove" value="var message = &quot;"></rule>
+                <rule type="string_to_string" order="string_remove" value="&quot;;"></rule>
+            </parser>
+        </parserList>
+        <result>
+            <resultKey>action_login_step_init_login_info</resultKey>
+        </result>
+    </action>
+</actionList>
+	
+<!-- 账户界面 -->
+<actionList key="list_action_account">
+	<action key="action_account" isShowDialog="N" resultType="elements" encoding="UTF-8">
+		<paramList>
+			<param name="uri" value="/otsweb/sysuser/editMemberAction.do"></param>
+            <param name="method" value="initEdit"></param>
+		</paramList>
+		<parserList>
+			<parser storageKey="res_account_user_info">
+				<rule type="elements_to_elements" value="table[class=pim_font] td:not(td[class=font_r])"></rule>
+                <rule type="elements_to_array" order="get_text"></rule>
+                <rule type="array_to_string" order="order_get_one_item_of_array_by_index" value="8"></rule>
+			</parser>
+		</parserList>
+        <result>
+            <resultKey>action_account</resultKey>
+        </result>
+	</action>
+</actionList>
+	
+<!-- 车站列表界面， stationlist -->
+<actionList key="list_action_station_list">
+	<action key="action_station_list" isShowDialog="Y"  resultType="elements" encoding="UTF-8" isPost="N">
+		<paramList>
+			<param name="uri" value="/otn/resources/js/framework/station_name.js"></param>
+		</paramList>
+		<parserList>
+			<parser storageKey="res_station_list_station_list_data">
+				<rule type="elements_to_string" order="all_text"></rule>
+				<rule type="string_to_string" order="string_remove" value="';"></rule>
+				<rule type="string_to_string" order="string_remove" value="var station_names ='@"></rule>
+				<rule type="string_to_array_string" value="@"></rule>
+				<rule type="array_to_two_dimensional_array" value="\|"></rule>
+			</parser>
+		</parserList>
+        <result>
+            <resultKey>action_station_list</resultKey>
+        </result>
+	</action>
+    
+</actionList>
+
+<!-- stoplist -->
+<actionList key="list_action_stop_list">
+	<action key="action_get_stop_list" resultType="string" encoding="UTF-8" isPost="N">
+		<paramList>
+			<param name="uri" value="/otn/czxx/queryByTrainNo"></param>
+            <param key="key_stop_list_train_no" name="train_no"></param>
+			<param key="key_stop_list_from_station_telecode" name="from_station_telecode"></param>
+			<param key="key_stop_list_to_station_telecode" name="to_station_telecode"></param>
+			<param key="key_stop_list_depart_date" name="depart_date"></param>
+		</paramList>
+		<parserList>
+			<parser storageKey="res_stop_list_stop_list_data">
+			</parser>
+		</parserList>
+        <result>
+            <resultKey>action_get_stop_list</resultKey>
+        </result>
+	</action>
+</actionList>
+
+<!-- 车票列表         ticketList -->
+<actionList key="list_action_ticket_list"> 
+	<action key="action_get_ticket_list" isShowDialog="Y" isDismissDialog="Y" encoding="UTF-8" isPost="N" resultType="string">
+		<paramList>
+			<param name="uri" value="/otn/leftTicket/query"></param>
+			<param key="key_ticket_list_train_date" name="leftTicketDTO.train_date"></param>
+			<param key="key_ticket_list_from_station_telecode" name="leftTicketDTO.from_station"></param>
+			<param key="key_ticket_list_to_station_telecode" name="leftTicketDTO.to_station"></param>
+			<param name="purpose_codes" value="ADULT"></param>
+			<param name="Referer" value="https://kyfw.12306.cn/otn/leftTicket/init"></param>
+		</paramList>
+		<parserList>
+            <parser storageKey="res_ticket_list_ticket_base_and_left_info_new_12306">
+            </parser>
+            <parser storageKey="res_ticket_list_ticket_base_and_left_info_new_12306_test">
+                <rule type="string_to_json"></rule>
+            </parser>
+		</parserList>
+		<result>
+			<resultKey>action_get_ticket_list</resultKey>
+		</result>
+	</action>
+    <action key="action_get_ticket_price_list" isShowDialog="Y" resultType="elements" encoding="UTF-8">
+        <paramList>
+            <param name="new_main" value="http://www.qumaiya.com/train/zhanzhan/"></param>
+            <param key="key_get_ticket_price_list_uri" name="uri"></param>
+        </paramList>
+        <parserList>
+            <parser storageKey="res_get_ticket_price_list_train_no">
+				<rule type="elements_to_elements" value="div[class=train_list selList_yd resultContList], div[class=train_list  resultContList]"></rule>
+				<rule type="elements_to_array" order="get_attr" value="id"></rule>
+			</parser>
+            <parser storageKey="res_get_ticket_price_list_price">
+                <rule type="elements_to_elements" value="div[class=rcSalePrice]"></rule>
+                <rule type="elements_to_array" order="get_text"></rule>
+                <rule type="array_to_array" order="string_replace" value=" ,@"></rule>
+                <rule type="array_to_two_dimensional_array" value="@"></rule>
+            </parser>
+        </parserList>
+        <result>
+            <resultKey>action_get_ticket_price_list</resultKey>
+        </result>
+    </action>
+</actionList>
+
+<!-- 车票详情界面 ticketDetail -->
+<actionList key="list_action_ticket_detail">
+	<action key="action_ticket_detail_init_1_check_user" isShowDialog="Y" resultType="string">
+		<paramList>
+			<param name="uri" value="/otn/login/checkUser"></param>
+			<param name="_json_att=" value=""></param>
+			<param name="Referer" value="https://kyfw.12306.cn/otn/leftTicket/init"></param>
+		</paramList>
+		<parserList>
+			<parser storageKey="res_ticket_detail_init_1_check_user">
+				<rule type="string_to_json"></rule>
+				<rule type="json_to_json" value="data"></rule>
+				<rule type="json_to_string" value="flag"></rule>
+			</parser>
+		</parserList>
+		<result>
+			<resultKey>action_ticket_detail_init_1_check_user</resultKey>
+			<nextActionList>
+                <next expResultKey="res_ticket_detail_init_1_check_user" expectResultType="equal" expectResultValue="true" nextActionKey="action_ticket_detail_init_2_submit_order_request"></next>
+            </nextActionList>
+		</result>
+	</action>
+	<action key="action_ticket_detail_init_2_submit_order_request" resultType="string">
+        <paramList>
+            <param name="uri" value="/otn/leftTicket/submitOrderRequest"></param>
+            <param key="key_mmStr" name="secretStr"></param>
+            <param key="key_ticket_list_train_date" name="train_date"></param>
+            <param key="key_round_train_date" name="back_train_date"></param>
+            <param name="tour_flag" value="dc"></param>
+            <param name="purpose_codes" value="ADULT"></param>
+            <param key="key_from_station_telecode_name" name="query_from_station_name"></param>
+            <param key="key_to_station_telecode_name" name="query_to_station_name"></param>
+            <param name="undefined" value=""></param>
+			<param name="Referer" value="https://kyfw.12306.cn/otn/leftTicket/init"></param>
+        </paramList>
+        <parserList>
+            <parser storageKey="res_ticket_detail_init_2_submit_order_request_status">
+                <rule type="string_to_json"></rule>
+                <rule type="json_to_string" value="status"></rule>
+            </parser>
+            <parser storageKey="res_ticket_detail_init_2_submit_order_request_error_msg">
+                <rule type="string_to_json"></rule>
+                <rule type="json_to_string" value="messages"></rule>
+                <rule type="string_to_string" order="string_remove" value="["></rule>
+                <rule type="string_to_string" order="string_remove" value="]"></rule>
+                <rule type="string_to_elements"></rule>
+                <rule type="elements_to_string" order="all_text"></rule>
+            </parser>
+        </parserList>
+        <result>
+            <resultKey>action_ticket_detail_init_2_submit_order_request</resultKey>
+            <nextActionList>
+                <next expResultKey="res_ticket_detail_init_2_submit_order_request_status" expectResultType="equal" expectResultValue="true" nextActionKey="action_ticket_detail_init_3_init_detail_page"></next>
+            </nextActionList>
+        </result>
+    </action>
+	<action key="action_ticket_detail_init_3_init_detail_page" resultType="elements">
+        <paramList>
+            <param name="uri" value="/otn/confirmPassenger/initDc"></param>
+            <param name="_json_att" value=""></param>
+			<param name="Referer" value="https://kyfw.12306.cn/otn/leftTicket/init"></param>
+        </paramList>
+        <parserList>
+            <parser storageKey="res_ticket_detail_init_3_init_detail_page_submit_repeat_token">
+                <rule type="elements_to_string" order="select_element_data_all" value="script:not(script[type],script[id])"></rule>
+                <rule type="string_to_string" order="string_regex" value="var globalRepeatSubmitToken.*"></rule>
+                <rule type="string_to_string" order="string_remove" value="var globalRepeatSubmitToken = '"></rule>
+                <rule type="string_to_string" order="string_remove" value="';"></rule>
+            </parser>
+            <parser storageKey="res_ticket_detail_init_3_init_detail_page_submit_ticket_info_for_show">
+                <rule type="elements_to_string" order="select_element_data_all" value="script[xml:space=preserve]:not(script[type],script[id])"></rule>
+                <rule type="string_to_string" order="string_regex" value="var ticketInfoForPassengerForm=.*"></rule>
+                <rule type="string_to_string" order="string_remove" value="var ticketInfoForPassengerForm="></rule>
+                <rule type="string_to_string" order="string_remove" value=";"></rule>
+            </parser>
+        </parserList>
+        <result>
+            <resultKey>action_ticket_detail_init_3_init_detail_page</resultKey>
+            <nextActionKey>action_ticket_detail_init_4_init_get_passenger_info</nextActionKey>
+        </result>
+    </action>
+    <action key="action_ticket_detail_init_4_init_get_passenger_info" isShowDialog="Y" resultType="string">
+        <paramList>
+            <param name="uri" value="/otn/confirmPassenger/getPassengerDTOs"></param>
+            <param key="res_ticket_detail_init_3_init_detail_page_submit_repeat_token" name="REPEAT_SUBMIT_TOKEN"></param>
+            <param name="_json_att" value=""></param>
+            <param name="Referer" value="https://kyfw.12306.cn/otn/confirmPassenger/initDc"></param>
+        </paramList>
+        <parserList>
+            <parser storageKey="res_ticket_detail_passenger_info">
+            </parser>
+            <parser storageKey="res_ticket_detail_login_timeout_string">
+                <rule type="string_to_json"></rule>
+                <rule type="json_to_string" value="status"></rule>
+            </parser>
+        </parserList>
+        <result>
+            <resultKey>action_ticket_detail_init_4_init_get_passenger_info</resultKey>
+            <nextActionKey>action_ticket_detail_rand_code</nextActionKey>
+        </result>
+    </action>
+    <action key="action_ticket_detail_rand_code"  resultType="stream" isPost="N">
+        <paramList>
+            <param name="uri" value="/otn/passcodeNew/getPassCodeNew"></param>
+            <param name="module" value="passenger"></param>
+            <param name="rand" value="randp"></param>
+        </paramList>
+        <parserList>
+            <parser storageKey="res_ticketdetail_randCode">
+                <rule type="stream_to_stream"></rule>
+            </parser>
+        </parserList>
+        <result>
+            <resultKey>action_ticket_detail_rand_code</resultKey>
+        </result>
+    </action>
+    <action key="action_submit_order_step_1_check_rand_code" isShowDialog="Y" resultType="string">
+        <paramList>
+            <param name="uri" value="/otn/passcodeNew/checkRandCodeAnsyn"></param>
+            <param name="REPEAT_SUBMIT_TOKEN" key="res_ticket_detail_init_3_init_detail_page_submit_repeat_token"></param>
+            <param name="_json_att" value=""></param>
+            <param name="rand" value="randp"></param>
+            <param name="randCode" key="input_ticketdetail_randCode"></param>
+            <param name="Referer" value="https://kyfw.12306.cn/otn/confirmPassenger/initDc"></param>
+        </paramList>
+        <parserList>
+            <parser storageKey="res_submit_order_step_1_check_rand_code_check_result">
+                <rule type="string_to_json"></rule>
+                <rule type="json_to_string" value="data"></rule>
+            </parser>
+        </parserList>
+        <result>
+            <resultKey>action_submit_order_step_1_check_rand_code</resultKey>
+            <nextActionList>
+                <next expResultKey="res_submit_order_step_1_check_rand_code_check_result" expectResultType="equal" expectResultValue="Y" nextActionKey="action_submit_order_step_2_check_order_info"></next>
+                <next expectResultType="sys_else" nextActionKey="action_ticket_detail_rand_code"></next>
+            </nextActionList>
+        </result>
+    </action>
+    <action key="action_submit_order_step_2_check_order_info" resultType="string">
+        <paramList>
+            <param name="uri" value="/otn/confirmPassenger/checkOrderInfo"></param>
+            <param name="REPEAT_SUBMIT_TOKEN" key="res_ticket_detail_init_3_init_detail_page_submit_repeat_token"></param>
+            <param name="_json_att" value=""></param>
+            <param name="bed_level_order_num" value="000000000000000000000000000000"></param>
+            <param name="cancel_flag" value="2"></param>
+            <param key="key2_old_passengerTickets" name="oldPassengerStr"></param>
+            <param key="key2_passengerTickets" name="passengerTicketStr"></param>
+            <param key="input_ticketdetail_randCode" name="randCode"></param>
+            <param name="tour_flag" value="dc"></param>
+            <param name="Referer" value="https://kyfw.12306.cn/otn/confirmPassenger/initDc"></param>
+        </paramList>
+        <parserList>
+            <parser storageKey="res_submit_order_step_2_check_order_info_check_result">
+                <rule type="string_to_json"></rule>
+                <rule type="json_to_json" value="data"></rule>
+                <rule type="json_to_string" value="submitStatus"></rule>
+            </parser>
+            <parser storageKey="res_submit_order_step_2_check_order_info_check_error_msg">
+                <rule type="string_to_json"></rule>
+                <rule type="json_to_json" value="data"></rule>
+                <rule type="json_to_string" value="errMsg"></rule>
+            </parser>
+        </parserList>
+        <result>
+            <resultKey>action_submit_order_step_2_check_order_info</resultKey>
+            <nextActionList>
+                <next expResultKey="res_submit_order_step_2_check_order_info_check_result" expectResultType="equal" expectResultValue="true" nextActionKey="action_submit_order_step_3_get_queue_count"></next>
+                <next expectResultType="sys_else" nextActionKey="action_ticket_detail_rand_code"></next>
+            </nextActionList>
+        </result>
+    </action>
+    <action key="action_submit_order_step_3_get_queue_count" resultType="string">
+        <paramList>
+            <param name="uri" value="/otn/confirmPassenger/getQueueCount"></param>
+            <param name="REPEAT_SUBMIT_TOKEN" key="res_ticket_detail_init_3_init_detail_page_submit_repeat_token"></param>
+            <param name="_json_att" value=""></param>
+            <param key="key_from_station_telecode" name="fromStationTelecode"></param>
+            <param key="key_left_ticket_str" name="leftTicketStr"></param>
+            <param name="purpose_codes" value="00"></param>
+            <param key="key2_passenger_1_seat" name="seatType"></param>
+            <param key="key_station_train_code" name="stationTrainCode"></param>
+            <param key="key_to_station_telecode" name="toStationTelecode"></param>
+            <param key="key_ticket_list_train_date_gmt" name="train_date"></param>
+            <param key="key_trainno3" name="train_no"></param>
+            
+            <param name="Referer" value="https://kyfw.12306.cn/otn/confirmPassenger/initDc"></param>
+        </paramList>
+        <parserList>
+            <parser storageKey="res_submit_order_step_3_get_queue_count_check_result">
+                <rule type="string_to_json"></rule>
+                <rule type="json_to_string" value="status"></rule>
+            </parser>
+        </parserList>
+        <result>
+            <resultKey>action_submit_order_step_3_get_queue_count</resultKey>
+            <nextActionList>
+                <next expResultKey="res_submit_order_step_3_get_queue_count_check_result" expectResultType="equal" expectResultValue="true" nextActionKey="action_submit_order_step_4_confirm_single_for_queue"></next>
+                <next expectResultType="sys_else" nextActionKey="action_ticket_detail_rand_code"></next>
+            </nextActionList>
+        </result>
+    </action>
+    <action key="action_submit_order_step_4_confirm_single_for_queue" resultType="string">
+        <paramList>
+            <param name="uri" value="/otn/confirmPassenger/confirmSingleForQueue"></param>
+            <param name="REPEAT_SUBMIT_TOKEN" key="res_ticket_detail_init_3_init_detail_page_submit_repeat_token"></param>
+            <param name="_json_att" value=""></param>
+            <param key="key_key_check_ischange" name="key_check_isChange"></param>
+            <param key="key_left_ticket_str" name="leftTicketStr"></param>
+            <param key="key2_old_passengerTickets" name="oldPassengerStr"></param>
+            <param key="key2_passengerTickets" name="passengerTicketStr"></param>
+            <param name="purpose_codes" value="00"></param>
+            <param key="input_ticketdetail_randCode" name="randCode"></param>
+            <param key="key_location_code" name="train_location"></param>
+            <param name="Referer" value="https://kyfw.12306.cn/otn/confirmPassenger/initDc"></param>
+        </paramList>
+        <parserList>
+            <parser storageKey="res_submit_order_step_4_confirm_single_for_queue_result">
+                <rule type="string_to_json"></rule>
+                <rule type="json_to_string" value="status"></rule>
+            </parser>
+        </parserList>
+        <result>
+            <resultKey>action_submit_order_step_4_confirm_single_for_queue</resultKey>
+            <nextActionList>
+                <next expResultKey="res_submit_order_step_4_confirm_single_for_queue_result" expectResultType="equal" expectResultValue="true" nextActionKey="action_submit_order_step_5_get_wait_time"></next>
+                <next expectResultType="sys_else" nextActionKey="action_ticket_detail_rand_code"></next>
+            </nextActionList>
+        </result>
+    </action>
+    <action key="action_submit_order_step_5_get_wait_time" resultType="string" isPost="N">
+        <paramList>
+            <param name="uri" value="/otn/confirmPassenger/queryOrderWaitTime"></param>
+            <param name="REPEAT_SUBMIT_TOKEN" key="res_ticket_detail_init_3_init_detail_page_submit_repeat_token"></param>
+            <param name="_json_att" value=""></param>
+            <param name="tourFlag" value="dc"></param>
+            <param name="Referer" value="https://kyfw.12306.cn/otn/confirmPassenger/initDc"></param>
+        </paramList>
+        <parserList>
+            <parser storageKey="res_submit_order_step_5_get_wait_time_msg">
+                <rule type="string_to_json"></rule>
+                <rule type="json_to_json" value="data"></rule>
+                <rule type="json_to_string" value="messages"></rule>
+                <rule type="string_to_string" order="string_remove" value="[]"></rule>
+            </parser>
+            <parser storageKey="res_submit_order_step_5_get_wait_time_wait_time">
+                <rule type="string_to_json"></rule>
+                <rule type="json_to_json" value="data"></rule>
+                <rule type="json_to_string" value="waitTime"></rule>
+            </parser>
+            <parser storageKey="res_submit_order_step_5_get_wait_time_order_id">
+                <rule type="string_to_json"></rule>
+                <rule type="json_to_json" value="data"></rule>
+                <rule type="json_to_string" value="orderId"></rule>
+            </parser>
+        </parserList>
+        <result>
+            <resultKey>action_submit_order_step_5_get_wait_time</resultKey>
+            <nextActionList>
+                <next expResultKey="res_submit_order_step_5_get_wait_time_wait_time" expectResultType="int_min_value" expectResultValue="0" nextActionKey="action_submit_order_step_5_get_wait_time"></next>
+                <next expResultKey="res_submit_order_step_5_get_wait_time_order_id" expectResultType="min_length" expectResultValue="2" nextActionKey="action_submit_order_step_6_result_order_for_queue"></next>
+            </nextActionList>
+        </result>
+    </action>
+    <action key="action_submit_order_step_6_result_order_for_queue" resultType="string">
+        <paramList>
+            <param name="uri" value="/otn/confirmPassenger/resultOrderForDcQueue"></param>
+            <param name="REPEAT_SUBMIT_TOKEN" key="res_ticket_detail_init_3_init_detail_page_submit_repeat_token"></param>
+            <param name="_json_att" value=""></param>
+            <param name="orderSequence_no" key="res_submit_order_step_5_get_wait_time_order_id"></param>
+            <param name="Referer" value="https://kyfw.12306.cn/otn/confirmPassenger/initDc"></param>
+        </paramList>
+        <parserList>
+            <parser storageKey="res_submit_order_step_6_result_order_for_queue_result">
+                <rule type="string_to_json"></rule>
+                <rule type="json_to_json" value="data"></rule>
+                <rule type="json_to_string" value="submitStatus"></rule>
+            </parser>
+        </parserList>
+        <result>
+            <resultKey>action_submit_order_step_6_result_order_for_queue</resultKey>
+            <nextActionList>
+                <next expResultKey="res_submit_order_step_6_result_order_for_queue_result" expectResultType="equal" expectResultValue="true" nextActionKey="action_submit_order_step_7_pay_order_sub_success"></next>
+            </nextActionList>
+        </result>
+    </action>
+    <action key="action_submit_order_step_7_pay_order_sub_success" resultType="elements">
+        <paramList>
+            <param name="uri" value="/otn//payOrder/init"></param>
+            <param name="REPEAT_SUBMIT_TOKEN" key="res_ticket_detail_init_3_init_detail_page_submit_repeat_token"></param>
+            <param name="_json_att" value=""></param>
+            <param name="Referer" value="https://kyfw.12306.cn/otn/confirmPassenger/initDc"></param>
+        </paramList>
+        <parserList>
+            <parser storageKey="res_submit_order_step_7_pay_order_sub_success_result">
+            </parser>
+            <parser storageKey="res_pay_interface_name">
+                <rule type="elements_to_string" order="select_element_data_all" value="script[xml:space=preserve]:not(script[type],script[id])"></rule>
+                <rule type="string_to_string" order="string_regex" value="var interfaceName.*"></rule>
+                <rule type="string_to_string" order="string_remove" value="var interfaceName = '"></rule>
+                <rule type="string_to_string" order="string_remove" value="';"></rule>
+            </parser>
+            <parser storageKey="res_pay_interface_version">
+                <rule type="elements_to_string" order="select_element_data_all" value="script[xml:space=preserve]:not(script[type],script[id])"></rule>
+                <rule type="string_to_string" order="string_regex" value="var interfaceVersion.*"></rule>
+                <rule type="string_to_string" order="string_remove" value="var interfaceVersion = '"></rule>
+                <rule type="string_to_string" order="string_remove" value="';"></rule>
+            </parser>
+            <parser storageKey="res_pay_tran_data">
+                <rule type="elements_to_string" order="select_element_data_all" value="script[xml:space=preserve]:not(script[type],script[id])"></rule>
+                <rule type="string_to_string" order="string_regex" value="var tranData.*"></rule>
+                <rule type="string_to_string" order="string_remove" value="var tranData = '"></rule>
+                <rule type="string_to_string" order="string_remove" value="';"></rule>
+                <rule type="string_to_string" order="string_remove" value="\r\n"></rule>
+            </parser>
+            <parser storageKey="res_pay_mer_sign_msg">
+                <rule type="elements_to_string" order="select_element_data_all" value="script[xml:space=preserve]:not(script[type],script[id])"></rule>
+                <rule type="string_to_string" order="string_regex" value="var merSignMsg.*"></rule>
+                <rule type="string_to_string" order="string_remove" value="var merSignMsg = '"></rule>
+                <rule type="string_to_string" order="string_remove" value="';"></rule>
+                <rule type="string_to_string" order="string_remove" value="\r\n"></rule>
+            </parser>
+            <parser storageKey="res_pay_appid">
+                <rule type="elements_to_string" order="select_element_data_all" value="script[xml:space=preserve]:not(script[type],script[id])"></rule>
+                <rule type="string_to_string" order="string_regex" value="var appId.*"></rule>
+                <rule type="string_to_string" order="string_remove" value="var appId = '"></rule>
+                <rule type="string_to_string" order="string_remove" value="';"></rule>
+            </parser>
+            <parser storageKey="res_pay_trans_type">
+                <rule type="elements_to_string" order="select_element_data_all" value="script[xml:space=preserve]:not(script[type],script[id])"></rule>
+                <rule type="string_to_string" order="string_regex" value="var transType.*"></rule>
+                <rule type="string_to_string" order="string_remove" value="var transType = '"></rule>
+                <rule type="string_to_string" order="string_remove" value="';"></rule>
+            </parser>
+            <parser storageKey="res_ticket_detail_cancel_sequence_no">
+                <rule type="elements_to_string" order="select_element_data_all" value="script[xml:space=preserve]:not(script[type],script[id])"></rule>
+                <rule type="string_to_string" order="string_regex" value="var sequence_no.*"></rule>
+                <rule type="string_to_string" order="string_remove" value="var sequence_no = '"></rule>
+                <rule type="string_to_string" order="string_remove" value="';"></rule>
+            </parser>
+            <parser storageKey="res_ticket_detail_order_total">
+                <rule type="elements_to_elements" value="p[class=total] span"></rule>
+                <rule type="elements_to_string" order="all_text"></rule>
+                <rule type="string_to_string" order="string_remove" value="总票款："></rule>
+                <rule type="string_to_string" order="string_remove" value=" 元"></rule>
+            </parser>
+            <parser storageKey="res_ticket_detail_order_total_price_for_ika">
+                <rule type="elements_to_elements" value="p[class=total] span"></rule>
+                <rule type="elements_to_string" order="all_text"></rule>
+                <rule type="string_to_string" order="string_remove" value="总票款："></rule>
+                <rule type="string_to_string" order="string_remove" value=" 元"></rule>
+            </parser>
+            <parser storageKey="res_resign_submit_resign_confirm_resign_begin_time">
+                <rule type="elements_to_string" order="select_element_data_all" value="script[xml:space=preserve]:not(script[type],script[id])"></rule>
+                <rule type="string_to_string" order="string_regex" value="var loseTime.*"></rule>
+                <rule type="string_to_string" order="string_remove" value="var loseTime = "></rule>
+                <rule type="string_to_string" order="string_remove" value=";"></rule>
+            </parser>
+            <parser storageKey="res_resign_submit_resign_confirm_resign_start_time">
+                <rule type="elements_to_string" order="select_element_data_all" value="script[xml:space=preserve]:not(script[type],script[id])"></rule>
+                <rule type="string_to_string" order="string_regex" value="var beginTime.*"></rule>
+                <rule type="string_to_string" order="string_remove" value="var beginTime = "></rule>
+                <rule type="string_to_string" order="string_remove" value=";"></rule>
+            </parser>
+            
+            <parser storageKey="res_submit_order_step_7_pay_order_sub_success_ticket_info">
+                <rule type="elements_to_string" order="select_element_data_all" value="script[xml:space=preserve]:not(script[type],script[id])"></rule>
+                <rule type="string_to_string" order="string_regex" value="var passangerTicketList = .*"></rule>
+                <rule type="string_to_string" order="string_remove" value="var passangerTicketList = "></rule>
+                <rule type="string_to_string" order="string_remove" value=";"></rule>
+            </parser>
+        </parserList>
+        <result>
+            <resultKey>action_submit_order_step_7_pay_order_sub_success</resultKey>
+        </result>
+    </action>
+    
+
+	<action key="action_submit_order" isDismissDialog="Y" resultType="elements" encoding="UTF-8">
+		<paramList>
+			<param name="uri" value="/otsweb/order/confirmPassengerAction.do"></param>
+			<param name="method" value="payOrder"></param>
+		</paramList>
+		<parserList>
+		</parserList>
+		<result>
+			<resultKey>action_submit_order</resultKey>
+            <nextActionList>
+                <next expResultKey="res_ticket_detail_order_info_value" expectResultType="array_length_max" expectResultValue="1" nextActionKey="action_refresh_ticket_detail_token"></next>
+                <next expectResultType="sys_else" nextActionKey="action_ika_statistics_submit"></next>
+            </nextActionList>
+		</result>
+	</action>
+    <action key="action_ika_statistics_submit"  resultType="string" encoding="UTF-8">
+        <paramList>
+            <param name="new_main" value="http://trainfinder.ikamobile.cn"></param>
+            <param name="uri" value="/trainfinder/ticket/order2/place"></param>
+            
+            <param key="res_ticket_detail_cancel_sequence_no" name="sequence_no"></param>
+            <param key="key_app_version_id" name="client_version"></param>
+            <param name="client_agent" value="Android"></param>
+            <param name="req_source" value="TrainFinder"></param>
+            <param name="format" value="xml"></param>
+            <param key="key_ticket_list_train_date" name="start_date"></param>
+            <param key="key_station_train_code" name="train_number"></param>
+            
+            <param key="key_from_station_telecode" name="train_from_station"></param>
+            <param key="key_from_station_name_in_ticket_detail" name="train_from_station_name"></param>
+            
+            <param key="key_to_station_telecode" name="train_to_station"></param>
+            <param key="key_to_station_name_in_ticket_detail" name="train_to_station_name"></param>
+            
+            <param key="key_train_start_time" name="train_start_time"></param>
+            <param key="key_arrive_time" name="train_arrival_time"></param>
+            
+            <param key="key_from_station_name" name="from_station_name"></param>
+            <param key="key_to_station_name" name="to_station_name"></param>
+            
+            <param key="res_ticket_detail_order_total_count_for_ika" name="p_count"></param>
+            <param key="res_ticket_detail_order_total_price_for_ika" name="price"></param>
+            
+            <param key="key2_passenger_1_cardno" name="p_0_cert_number" isEncrypt="Y"></param>
+            <param key="key2_passenger_1_cardtype" name="p_0_cert"></param>
+            <param key="key2_passenger_1_mobileno" name="p_0_mobile" isEncrypt="Y"></param>
+            <param key="key2_passenger_1_name" name="p_0_name"></param>
+            <param key="key2_passenger_1_seat" name="p_0_seat"></param>
+            <param key="key2_passenger_1_ticket" name="p_0_ticket"></param>
+            
+            <param key="key2_passenger_2_cardno" name="p_1_cert_number" isEncrypt="Y"></param>
+            <param key="key2_passenger_2_cardtype" name="p_1_cert"></param>
+            <param key="key2_passenger_2_mobileno" name="p_1_mobile" isEncrypt="Y"></param>
+            <param key="key2_passenger_2_name" name="p_1_name"></param>
+            <param key="key2_passenger_2_seat" name="p_1_seat"></param>
+            <param key="key2_passenger_2_ticket" name="p_1_ticket"></param>
+            
+            <param key="key2_passenger_3_cardno" name="p_2_cert_number" isEncrypt="Y"></param>
+            <param key="key2_passenger_3_cardtype" name="p_2_cert"></param>
+            <param key="key2_passenger_3_mobileno" name="p_2_mobile" isEncrypt="Y"></param>
+            <param key="key2_passenger_3_name" name="p_2_name"></param>
+            <param key="key2_passenger_3_seat" name="p_2_seat"></param>
+            <param key="key2_passenger_3_ticket" name="p_2_ticket"></param>
+            
+            <param key="key2_passenger_4_cardno" name="p_3_cert_number" isEncrypt="Y"></param>
+            <param key="key2_passenger_4_cardtype" name="p_3_cert"></param>
+            <param key="key2_passenger_4_mobileno" name="p_3_mobile" isEncrypt="Y"></param>
+            <param key="key2_passenger_4_name" name="p_3_name"></param>
+            <param key="key2_passenger_4_seat" name="p_3_seat"></param>
+            <param key="key2_passenger_4_ticket" name="p_3_ticket"></param>
+            
+            <param key="key2_passenger_5_cardno" name="p_4_cert_number" isEncrypt="Y"></param>
+            <param key="key2_passenger_5_cardtype" name="p_4_cert"></param>
+            <param key="key2_passenger_5_mobileno" name="p_4_mobile" isEncrypt="Y"></param>
+            <param key="key2_passenger_5_name" name="p_4_name"></param>
+            <param key="key2_passenger_5_seat" name="p_4_seat"></param>
+            <param key="key2_passenger_5_ticket" name="p_4_ticket"></param>
+        </paramList>
+        <parserList></parserList>
+    </action>
+    
+</actionList>
+
+<!-- 订单提交成功界面 submitSuccess -->
+<actionList key="list_action_submit_success">
+	<action key="action_submit_success_net_pay" isShowDialog="Y" resultType="elements" encoding="UTF-8">
+		<paramList>
+			<param name="new_main" value="https://epay.12306.cn"></param>
+			<param name="uri" value="/pay/payGateway"></param>
+            <param name="_json_att" value=""></param>
+			<param key="res_pay_appid" name="appId"></param>
+			<param key="res_pay_interface_name" name="interfaceName"></param>
+			<param key="res_pay_interface_version" name="interfaceVersion"></param>
+			<param key="res_pay_mer_sign_msg" name="merSignMsg"></param>
+			<param key="res_pay_tran_data" name="tranData"></param>
+			<param key="res_pay_trans_type" name="transType"></param>
+		</paramList>
+		<parserList>
+			<parser storageKey="res_submit_success_order_time_out_date">
+				<rule type="elements_to_elements" value="input[name=orderTimeoutDate]"></rule>
+				<rule type="elements_to_string" order="select_first_element_attr" value="value"></rule>
+			</parser>
+			<parser storageKey="res_submit_success_channel_id">
+				<rule type="elements_to_elements" value="input[name=channelId]"></rule>
+				<rule type="elements_to_string" order="select_first_element_attr" value="value"></rule>
+			</parser>
+			<parser storageKey="res_submit_success_bank_list_name">
+				<rule type="elements_to_elements" value="img[onclick]"></rule>
+				<rule type="elements_to_array" order="get_attr" value="title"></rule>
+			</parser>
+			<parser storageKey="res_submit_success_bank_list_code">
+				<rule type="elements_to_elements" value="img[onclick]"></rule>
+				<rule type="elements_to_array" order="get_attr" value="onclick"></rule>
+				<rule type="array_to_array" order="string_remove" value="javascript:formsubmit('"></rule>
+				<rule type="array_to_array" order="string_remove" value="');"></rule>
+			</parser>
+		</parserList>
+		<result>
+			<resultKey>action_submit_success_net_pay</resultKey>
+		</result>
+	</action>
+    <action key="action_ika_statistics_cancel_order"  resultType="string" encoding="UTF-8">
+        <paramList>
+            <param name="new_main" value="http://trainfinder.ikamobile.cn"></param>
+            <param name="uri" value="/trainfinder/order/cancel2"></param>
+            <param key="res_ticket_detail_cancel_sequence_no" name="sequence_no"></param>
+            <param key="key_app_version_id" name="client_version"></param>
+            <param name="client_agent" value="Android"></param>
+            <param name="req_source" value="TrainFinder"></param>
+        </paramList>
+        <parserList>
+        </parserList>
+    </action>
+</actionList>
+
+<!-- 未完成订单界面   orderList -->
+<actionList key="list_action_uncomplete_order_list">
+    <action key="action_get_uncomplete_order_list" isShowDialog="Y" resultType="string">
+		<paramList>
+			<param name="uri" value="/otn/queryOrder/queryMyOrderNoComplete"></param>
+			<param name="Referer" value="https://kyfw.12306.cn/otn/queryOrder/initNoComplete"></param>
+		</paramList>
+		<parserList>
+			<parser storageKey="res_order_uncomplete_list_json_string">
+			</parser>
+		</parserList>
+		<result>
+			<resultKey>action_get_uncomplete_order_list</resultKey>
+		</result>
+	</action>
+    <action key="action_pay_uncomplete_order_list_step_1" isShowDialog="Y" resultType="string">
+        <paramList>
+            <param name="uri" value="/otn/queryOrder/continuePayNoCompleteMyOrder"></param>
+            <param name="_json_att" value=""></param>
+            <param name="pay_flag" value="pay"></param>
+            <param name="sequence_no" key="res_order_list_sequence_no"></param>
+            <param name="Referer" value="https://kyfw.12306.cn/otn/payfinish/init"></param>
+        </paramList>
+        <parserList>
+            <parser storageKey="res_pay_uncomplete_order_list_step_1_status">
+                <rule type="string_to_json"></rule>
+                <rule type="json_to_string" value="status"></rule>
+            </parser>
+            <parser storageKey="res_pay_uncomplete_order_list_step_1_error_msg">
+                <rule type="string_to_json"></rule>
+                <rule type="json_to_json" value="data"></rule>
+                <rule type="json_to_string" value="existError"></rule>
+            </parser>
+        </parserList>
+        <result>
+            <resultKey>action_pay_uncomplete_order_list_step_1</resultKey>
+            <nextActionList>
+                <next expResultKey="res_pay_uncomplete_order_list_step_1_status" expectResultType="equal" expectResultValue="true" nextActionKey="action_pay_uncomplete_order_list_step_2"></next>
+            </nextActionList>
+        </result>
+    </action>
+    <action key="action_pay_uncomplete_order_list_step_2" resultType="elements">
+        <paramList>
+            <param name="uri" value="/otn/payOrder/init"></param>
+            <param name="_json_att" value=""></param>
+            <param name="Referer" value="https://kyfw.12306.cn/otn/payfinish/init"></param>
+        </paramList>
+        <parserList>
+            <parser storageKey="res_pay_uncomplete_order_list_step_2_result">
+            </parser>
+            <parser storageKey="res_pay_interface_name">
+                <rule type="elements_to_string" order="select_element_data_all" value="script[xml:space=preserve]:not(script[type],script[id])"></rule>
+                <rule type="string_to_string" order="string_regex" value="var interfaceName.*"></rule>
+                <rule type="string_to_string" order="string_remove" value="var interfaceName = '"></rule>
+                <rule type="string_to_string" order="string_remove" value="';"></rule>
+            </parser>
+            <parser storageKey="res_pay_interface_version">
+                <rule type="elements_to_string" order="select_element_data_all" value="script[xml:space=preserve]:not(script[type],script[id])"></rule>
+                <rule type="string_to_string" order="string_regex" value="var interfaceVersion.*"></rule>
+                <rule type="string_to_string" order="string_remove" value="var interfaceVersion = '"></rule>
+                <rule type="string_to_string" order="string_remove" value="';"></rule>
+            </parser>
+            <parser storageKey="res_pay_tran_data">
+                <rule type="elements_to_string" order="select_element_data_all" value="script[xml:space=preserve]:not(script[type],script[id])"></rule>
+                <rule type="string_to_string" order="string_regex" value="var tranData.*"></rule>
+                <rule type="string_to_string" order="string_remove" value="var tranData = '"></rule>
+                <rule type="string_to_string" order="string_remove" value="';"></rule>
+                <rule type="string_to_string" order="string_remove" value="\r\n"></rule>
+            </parser>
+            <parser storageKey="res_pay_mer_sign_msg">
+                <rule type="elements_to_string" order="select_element_data_all" value="script[xml:space=preserve]:not(script[type],script[id])"></rule>
+                <rule type="string_to_string" order="string_regex" value="var merSignMsg.*"></rule>
+                <rule type="string_to_string" order="string_remove" value="var merSignMsg = '"></rule>
+                <rule type="string_to_string" order="string_remove" value="';"></rule>
+                <rule type="string_to_string" order="string_remove" value="\r\n"></rule>
+            </parser>
+            <parser storageKey="res_pay_appid">
+                <rule type="elements_to_string" order="select_element_data_all" value="script[xml:space=preserve]:not(script[type],script[id])"></rule>
+                <rule type="string_to_string" order="string_regex" value="var appId.*"></rule>
+                <rule type="string_to_string" order="string_remove" value="var appId = '"></rule>
+                <rule type="string_to_string" order="string_remove" value="';"></rule>
+            </parser>
+            <parser storageKey="res_pay_trans_type">
+                <rule type="elements_to_string" order="select_element_data_all" value="script[xml:space=preserve]:not(script[type],script[id])"></rule>
+                <rule type="string_to_string" order="string_regex" value="var transType.*"></rule>
+                <rule type="string_to_string" order="string_remove" value="var transType = '"></rule>
+                <rule type="string_to_string" order="string_remove" value="';"></rule>
+            </parser>
+
+        </parserList>
+        <result>
+            <resultKey>action_pay_uncomplete_order_list_step_2</resultKey>
+            <nextActionList>
+                <next expResultKey="res_pay_appid" expectResultType="min_length" expectResultValue="1" nextActionKey="action_submit_success_net_pay"></next>
+            </nextActionList>
+        </result>
+    </action>
+    <action key="action_submit_success_net_pay" resultType="elements" encoding="UTF-8">
+        <paramList>
+            <param name="new_main" value="https://epay.12306.cn"></param>
+            <param name="uri" value="/pay/payGateway"></param>
+            <param key="res_pay_appid" name="appId"></param>
+            <param key="res_pay_interface_name" name="interfaceName"></param>
+            <param key="res_pay_interface_version" name="interfaceVersion"></param>
+            <param key="res_pay_mer_sign_msg" name="merSignMsg"></param>
+            <param key="res_pay_tran_data" name="tranData"></param>
+            <param key="res_pay_trans_type" name="transType"></param>
+        </paramList>
+        <parserList>
+            <parser storageKey="res_submit_success_order_time_out_date">
+                <rule type="elements_to_elements" value="input[name=orderTimeoutDate]"></rule>
+                <rule type="elements_to_string" order="select_first_element_attr" value="value"></rule>
+            </parser>
+            <parser storageKey="res_submit_success_channel_id">
+                <rule type="elements_to_elements" value="input[name=channelId]"></rule>
+                <rule type="elements_to_string" order="select_first_element_attr" value="value"></rule>
+            </parser>
+            <parser storageKey="res_submit_success_bank_list_name">
+                <rule type="elements_to_elements" value="img[onclick]"></rule>
+                <rule type="elements_to_array" order="get_attr" value="title"></rule>
+            </parser>
+            <parser storageKey="res_submit_success_bank_list_code">
+                <rule type="elements_to_elements" value="img[onclick]"></rule>
+                <rule type="elements_to_array" order="get_attr" value="onclick"></rule>
+                <rule type="array_to_array" order="string_remove" value="javascript:formsubmit('"></rule>
+                <rule type="array_to_array" order="string_remove" value="');"></rule>
+            </parser>
+            <parser storageKey="res_order_list_submit_success_net_pay_error1">
+                <rule type="elements_to_elements" value="div[class=err1]"></rule>
+                <rule type="elements_to_string" order="all_text"></rule>
+            </parser>
+        </parserList>
+        <result>
+            <resultKey>action_submit_success_net_pay</resultKey>
+        </result>
+    </action>
+    <action key="action_order_list_cancel_uncomplete_order" isShowDialog="Y" resultType="string" encoding="UTF-8">
+        <paramList>
+            <param name="uri" value="/otn/queryOrder/cancelNoCompleteMyOrder"></param>
+            <param name="_json_att" value=""></param>
+            <param name="cancel_flag" key="key_cancel_order_common_or_resign_flag"></param>
+            <param name="sequence_no" key="res_order_list_sequence_no"></param>
+            <param name="Referer" value="https://kyfw.12306.cn/otn/payfinish/init"></param>
+        </paramList>
+        <parserList>
+            <parser storageKey="res_order_list_cancel_uncomplete_order_status">
+                <rule type="string_to_json"></rule>
+                <rule type="json_to_string" value="status"></rule>
+            </parser>
+            <parser storageKey="res_order_list_cancel_uncomplete_order_error_msg">
+                <rule type="string_to_json"></rule>
+                <rule type="json_to_json" value="data"></rule>
+                <rule type="json_to_string" value="existError"></rule>
+            </parser>
+        </parserList>
+        <result>
+            <resultKey>action_order_list_cancel_uncomplete_order</resultKey>
+        </result>
+    </action>
+
+    <action key="action_order_list_resign_pay" isShowDialog="Y" resultType="elements" encoding="UTF-8">
+        <paramList>
+            <param name="uri" value="/otsweb/order/myOrderAction.do"></param>
+            <param name="method" value="laterEpay"></param>
+            <param name="con_pay_type" value="resign"></param>
+            <param key="res_order_list_sequence_no" name="orderSequence_no"></param>
+            <param key="res_order_list_token" name="org.apache.struts.taglib.html.TOKEN"></param>
+			<param key="res_order_list_ticket_key" name="ticket_key"></param>
+            <param name="Referer" value="https://dynamic.12306.cn/otsweb/order/myOrderAction.do?method=queryMyOrderNotComplete&amp;leftmenu=Y"></param>
+        </paramList>
+        <parserList>
+            <parser storageKey="res_resign_submit_resign_pre_5_confirm_info_value">
+                <rule type="elements_to_elements" value="table[class=table_list] tr:not(tr[class=table_th2],tr[class=table_zpj]) td"></rule>
+                <rule type="elements_to_array" order="get_text"></rule>
+            </parser>
+            <parser storageKey="res_resign_submit_resign_pre_5_confirm_info_value_for_new_ui">
+                <rule type="elements_to_elements" value="table[class=table_list] tr:not(tr[class=table_th2],tr[class=table_zpj]) td"></rule>
+                <rule type="elements_to_string" order="all_text"></rule>
+                <rule type="string_to_string" order="string_remove_blank_and_add_x" value="#"></rule>
+                <rule type="string_to_string" order="string_replace" value="—,#"></rule>
+                <rule type="string_to_array_string" value="#"></rule>
+            </parser>
+            <parser storageKey="res_resign_submit_resign_pre_5_confirm_info_title">
+                <rule type="elements_to_elements" value="tr[class=table_th2]>td"></rule>
+                <rule type="elements_to_array" order="get_text"></rule>
+            </parser>
+            <parser storageKey="res_resign_submit_resign_pre_5_confirm_info_notice">
+                <rule type="elements_to_elements" value="tr[class=table_zpj]"></rule>
+                <rule type="elements_to_string" order="all_text"></rule>
+            </parser>
+            <parser storageKey="res_resign_submit_resign_pre_5_confirm_info_token">
+                <rule type="elements_to_elements" value="input[name=org.apache.struts.taglib.html.TOKEN]"></rule>
+                <rule type="elements_to_string" order="select_first_element_attr" value="value"></rule>
+            </parser>
+            <parser storageKey="res_resign_submit_resign_pre_5_confirm_info_res_to_determine_if_need_pay">
+                <rule type="elements_to_elements" value="div[class=wc_fontn]"></rule>
+                <rule type="elements_to_string" order="all_text"></rule>
+            </parser>
+            
+            <parser storageKey="res_resign_submit_resign_pre_5_confirm_info_pay_interface_name">
+                <rule type="elements_to_elements" value="input[name=interfaceName]"></rule>
+                <rule type="elements_to_string" order="select_first_element_attr" value="value"></rule>
+            </parser>
+            <parser storageKey="res_resign_submit_resign_pre_5_confirm_info_pay_interface_version">
+                <rule type="elements_to_elements" value="input[name=interfaceVersion]"></rule>
+                <rule type="elements_to_string" order="select_first_element_attr" value="value"></rule>
+            </parser>
+            <parser storageKey="res_resign_submit_resign_pre_5_confirm_info_pay_tran_data">
+                <rule type="elements_to_elements" value="input[name=tranData]"></rule>
+                <rule type="elements_to_string" order="select_first_element_attr" value="value"></rule>
+            </parser>
+            <parser storageKey="res_resign_submit_resign_pre_5_confirm_info_pay_mer_sign_msg">
+                <rule type="elements_to_elements" value="input[name=merSignMsg]"></rule>
+                <rule type="elements_to_string" order="select_first_element_attr" value="value"></rule>
+            </parser>
+            <parser storageKey="res_resign_submit_resign_pre_5_confirm_info_pay_appid">
+                <rule type="elements_to_elements" value="input[name=appId]"></rule>
+                <rule type="elements_to_string" order="select_first_element_attr" value="value"></rule>
+            </parser>
+            <parser storageKey="res_resign_submit_resign_pre_5_confirm_info_pay_trans_type">
+                <rule type="elements_to_elements" value="input[name=transType]"></rule>
+                <rule type="elements_to_string" order="select_first_element_attr" value="value"></rule>
+            </parser>
+            <parser storageKey="res_resign_submit_resign_pre_5_confirm_info_pay_batch_no">
+                <rule type="elements_to_elements" value="input[name=batch_no]"></rule>
+                <rule type="elements_to_string" order="select_first_element_attr" value="value"></rule>
+            </parser>
+            <parser storageKey="res_resign_submit_resign_confirm_resign_begin_time">
+                <rule type="elements_to_string" order="select_element_data_all" value="script:not(script[src],script[type],script[language=javascript])"></rule>
+                <rule type="string_to_string" order="string_regex" value=".*var loseTime = &quot;.*"></rule>
+                <rule type="string_to_string" order="string_remove" value="var loseTime = &quot;"></rule>
+                <rule type="string_to_string" order="string_remove" value="&quot;;"></rule>
+            </parser>
+            <parser storageKey="res_resign_submit_resign_confirm_resign_start_time">
+                <rule type="elements_to_string" order="select_element_data_all" value="script:not(script[src],script[type],script[language=javascript])"></rule>
+                <rule type="string_to_string" order="string_regex" value=".*var beginTime = &quot;.*"></rule>
+                <rule type="string_to_string" order="string_remove" value="var beginTime = &quot;"></rule>
+                <rule type="string_to_string" order="string_remove" value="&quot;;"></rule>
+            </parser>
+        </parserList>
+        <result>
+            <resultKey>action_order_list_resign_pay</resultKey>
+        </result>
+    </action>
+
+    <action key="action_ika_statistics_cancel_order" resultType="string" encoding="UTF-8">
+        <paramList>
+            <param name="new_main" value="http://trainfinder.ikamobile.cn"></param>
+            <param name="uri" value="/trainfinder/order/cancel2"></param>
+            <param key="res_order_list_sequence_no" name="sequence_no"></param>
+            <param key="key_app_version_id" name="client_version"></param>
+            <param name="client_agent" value="Android"></param>
+            <param name="req_source" value="TrainFinder"></param>
+        </paramList>
+        <parserList>
+        </parserList>
+    </action>
+    <action key="action_order_list_cancel_resign_uncomplete_order" isShowDialog="Y" resultType="elements" encoding="UTF-8">
+        <paramList>
+            <param name="uri" value="/otsweb/order/orderAction.do"></param>
+            <param name="method" value="cancelMyOrderNotCompleteResign"></param>
+            <param name="orderRequest.tour_flag" value=""></param>
+            <param key="res_order_list_token" name="org.apache.struts.taglib.html.TOKEN"></param>
+            <param key="res_order_list_sequence_no" name="sequence_no"></param>
+            <param name="Referer" value="https://dynamic.12306.cn/otsweb/order/myOrderAction.do?method=queryMyOrderNotComplete&amp;leftmenu=Y"></param>
+            
+        </paramList>
+        <parserList>
+            <parser storageKey="res_order_list_cancel_uncomplete_order_success">
+                <rule type="elements_to_string" order="select_element_data" value="script[language=javascript]"></rule>
+                <rule type="string_to_string" order="string_regex" value=".*var message = &quot;.*"></rule>
+                <rule type="string_to_string" order="string_remove" value="var message = &quot;"></rule>
+                <rule type="string_to_string" order="string_remove" value="&quot;;"></rule>
+            </parser>
+        </parserList>
+        <result>
+            <resultKey>action_order_list_cancel_resign_uncomplete_order</resultKey>
+        </result>
+    </action>
+
+</actionList>
+
+<!-- 已完成订单 -->
+<actionList key="list_action_completed_order_list">
+
+	<action key="action_order_list_get_complete_order" isShowDialog="Y" resultType="string" encoding="UTF-8">
+		<paramList>
+			<param name="uri" value="/otn/queryOrder/queryMyOrder"></param>
+			<param name="come_from_flag" value="my_order"></param>
+			<param name="pageIndex" value="0"></param>
+			<param name="pageSize" value="8"></param>
+			<param key="key_order_list_complete_order_from_date" name="queryStartDate"></param>
+			<param key="key_order_list_complete_order_to_date" name="queryEndDate"></param>
+            <param name="queryType" value="1"></param>
+            <param name="sequeue_train_name" value=""></param>
+			<param name="Referer" value="https://kyfw.12306.cn/otn/queryOrder/init"></param>
+			
+		</paramList>
+		<parserList>
+            <parser storageKey="res_order_list_get_complete_order_all_json_string">
+            </parser>
+            <parser storageKey="res_order_list_get_complete_order_status">
+                <rule type="string_to_json"></rule>
+                <rule type="json_to_string" value="status"></rule>
+            </parser>
+            <parser storageKey="res_order_list_get_complete_order_error_msg">
+                <rule type="string_to_json"></rule>
+                <rule type="json_to_json" value="data"></rule>
+                <rule type="json_to_string" value="existError"></rule>
+            </parser>
+		</parserList>
+		<result>
+			<resultKey>action_order_list_get_complete_order</resultKey>
+		</result>
+	</action>
+    
+    <action key="action_order_list_refund_complete_order_step_1" isShowDialog="Y" resultType="string" encoding="UTF-8">
+        <paramList>
+            <param name="uri" value="/otn/queryOrder/returnTicketAffirm"></param>
+            <param name="_json_att" value=""></param>
+            <param name="batch_no" value="1"></param>
+            <param key="key_order_list_selected_refund_ticket_coach_name" name="coach_name"></param>
+            <param key="key_order_list_selected_refund_ticket_coach_no" name="coach_no"></param>
+            <param key="key_order_list_selected_refund_ticket_from_station_name" name="from_station_name"></param>
+            <param key="key_order_list_selected_refund_ticket_passenger_name" name="passenger_name"></param>
+            <param key="key_order_list_selected_refund_ticket_seat_name" name="seat_name"></param>
+            <param key="key_order_list_selected_refund_ticket_seat_no" name="seat_no"></param>
+            <param key="key_order_list_selected_refund_ticket_seat_type_name" name="seat_type_name"></param>
+            <param key="key_order_list_selected_refund_ticket_sequence_no" name="sequence_no"></param>
+            <param key="key_order_list_selected_refund_ticket_start_time" name="start_time"></param>
+            <param key="key_order_list_selected_refund_ticket_start_train_date_page" name="start_train_date_page"></param>
+            <param key="key_order_list_selected_refund_ticket_to_station_name" name="to_station_name"></param>
+            <param key="key_order_list_selected_refund_ticket_train_code" name="train_code"></param>
+            <param key="key_order_list_selected_refund_ticket_train_date" name="train_date"></param>
+            <param name="Referer" value="https://kyfw.12306.cn/otn/queryOrder/init"></param>
+        </paramList>
+        <parserList>
+            <parser storageKey="res_order_list_refund_complete_result_all_json_string">
+            </parser>
+            <parser storageKey="res_order_list_refund_complete_result_status">
+                <rule type="string_to_json"></rule>
+                <rule type="json_to_string" value="status"></rule>
+            </parser>
+            <parser storageKey="res_order_list_refund_complete_result_error_msg">
+                <rule type="string_to_json"></rule>
+                <rule type="json_to_string" value="messages"></rule>
+                <rule type="string_to_string" order="string_remove" value="["></rule>
+                <rule type="string_to_string" order="string_remove" value="]"></rule>
+            </parser>
+        </parserList>
+        <result>
+            <resultKey>action_order_list_refund_complete_order_step_1</resultKey>
+            <nextActionList>
+                <next expResultKey="res_order_list_refund_complete_result_status" expectResultType="equal" expectResultValue="true" nextActionKey="action_order_list_refund_complete_order_step_2"></next>
+            </nextActionList>
+        </result>
+    </action>
+    <action key="action_order_list_refund_complete_order_step_2" isShowDialog="Y" resultType="elements" encoding="UTF-8">
+        <paramList>
+            <param name="uri" value="/otn/queryOrder/returnTicket"></param>
+            <param name="_json_att" value=""></param>
+            <param name="Referer" value="https://kyfw.12306.cn/otn/queryOrder/init"></param>
+        </paramList>
+        <parserList>
+            <parser storageKey="res_order_list_refund_complete_order_step_2_refund_no_string">
+				<rule type="elements_to_elements" value="span[class=colorA]"></rule>
+                <rule type="elements_to_string" order="all_text"></rule>
+			</parser>
+            <parser storageKey="res_order_list_refund_complete_order_step_2_success_string">
+				<rule type="elements_to_elements" value="div[class=greet]"></rule>
+                <rule type="elements_to_string" order="all_text"></rule>
+			</parser>
+        </parserList>
+        <result>
+            <resultKey>action_order_list_refund_complete_order_step_2</resultKey>
+        </result>
+    </action>
+	
+	<!-- this action res and actions below is in refundConfirm page -->
+	<action key="action_order_list_complete_refund_ticket" isShowDialog="Y" resultType="elements" encoding="UTF-8">
+		<paramList>
+			<!-- 
+			<param name="new_main" value="http://192.168.0.122/tuipiao/tuipiao_confirm_2.html"></param>
+			-->
+			<param name="uri" value="/otsweb/order/ticketAction.do"></param>
+			<param name="method" value="initRefundTicket"></param>
+			<param key="res_order_list_complete_ticket_key" name="method"></param>
+			<param key="res_order_list_complete_order_init_refund_order_from_date" name="queryOrderDTO.from_order_date"></param>
+			<param key="res_order_list_complete_order_init_refund_to_date" name="queryOrderDTO.to_order_date"></param>
+			<param key="res_order_list_complete_order_init_refund_token" name="org.apache.struts.taglib.html.TOKEN"></param>
+			<param key="key_order_list_selected_refund_ticket_key" name="ticket_key"></param>
+		</paramList>
+		<parserList>
+			<parser storageKey="res_order_list_complete_order_init_confirm_refund_2">
+				<rule type="elements_to_elements" value="form[id=comfirmRefundForm] > input"></rule>
+				<rule type="elements_to_two_dimensional_array" order="get_input_value_pair"></rule>
+			</parser>
+			<parser storageKey="res_order_list_complete_refund_person_and_ticket_info_title_value">
+				<rule type="elements_to_elements" value="table[width=400] tr td"></rule>
+				<rule type="elements_to_array" order="get_text"></rule>
+			</parser>
+			<parser storageKey="res_order_list_complete_refund_total_info">
+				<rule type="elements_to_string" order="select_element_text" value="td[width=90%]"></rule>
+			</parser>
+			<parser storageKey="res_order_list_complete_order_init_refund_token_2">
+				<rule type="elements_to_elements" value="input[name=org.apache.struts.taglib.html.TOKEN]"></rule>
+				<rule type="elements_to_string" order="select_first_element_attr" value="value"></rule>
+			</parser>
+            <parser storageKey="res_order_list_complete_order_init_refund_sequence_no">
+                <rule type="elements_to_elements" value="input[name=ticket.sequence_no]"></rule>
+                <rule type="elements_to_string" order="select_first_element_attr" value="value"></rule>
+            </parser>
+		</parserList>
+		<result>
+			<resultKey>action_order_list_complete_refund_ticket</resultKey>
+		</result>
+	</action>
+	<action key="action_order_list_complete_confirm_refund_ticket" isShowDialog="Y" resultType="elements" encoding="UTF-8">
+		<paramList>
+			<param name="uri" value="/otsweb/order/ticketAction.do"></param>
+			<param name="method" value="confirmRefundTicket"></param>
+			<param key="res_order_list_complete_order_init_confirm_refund_2"></param>
+			<param key="res_order_list_complete_order_init_refund_token_2" name="org.apache.struts.taglib.html.TOKEN"></param>
+		</paramList>
+		<parserList>
+			<parser storageKey="res_order_list_complete_refund_success_info">
+				<rule type="elements_to_elements" value="div[class=tp_suc]"></rule>
+				<rule type="elements_to_string" order="all_text"></rule>
+			</parser>
+		</parserList>
+		<result>
+			<resultKey>action_order_list_complete_confirm_refund_ticket</resultKey>
+		</result>
+	</action>
+</actionList>
+
+<actionList key="list_action_resign">
+    <action key="action_resign_resign_ticket_start" isShowDialog="Y" resultType="string" encoding="UTF-8">
+        <paramList>
+            <param name="uri" value="/otsweb/order/queryResignAction.do"></param>
+            <param name="method" value="checkApplyResign"></param>
+            <param key="key_order_list_selected_refund_ticket_key" name="ticketkey"></param>
+        </paramList>
+        <parserList>
+            <parser storageKey="res_resign_resign_ticket_start">
+				<rule type="string_to_string"></rule>
+			</parser>
+        </parserList>
+        <result>
+            <resultKey>action_resign_resign_ticket_start</resultKey>
+            <nextActionKey>action_resign_resign_ticket_second_step</nextActionKey>
+        </result>
+    </action>
+    <action key="action_resign_resign_ticket_second_step" resultType="elements" encoding="UTF-8">
+        <paramList>
+            <param name="uri" value="/otsweb/order/myOrderAction.do"></param>
+            <param name="method" value="resign"></param>
+            <param key="key_ticket_key_for_resign_ticket" name="ticket_key"></param>
+            <param key="res_order_list_complete_order_init_refund_token" name="org.apache.struts.taglib.html.TOKEN"></param>
+            <param name="from_order_date" value="2013-05-09"></param>
+            <param name="to_order_date" value="2013-06-17"></param>
+        </paramList>
+        <parserList>
+            <parser storageKey="res_resign_resign_ticket_second_step_token">
+				<rule type="elements_to_elements" value="input[name=org.apache.struts.taglib.html.TOKEN]"></rule>
+				<rule type="elements_to_string" order="select_first_element_attr" value="value"></rule>
+			</parser>
+            <parser storageKey="res_resign_resign_ticket_second_step_from_station_telecode">
+                <rule type="elements_to_elements" value="input[name=orderRequest.from_station_telecode]"></rule>
+                <rule type="elements_to_string" order="select_first_element_attr" value="value"></rule>
+            </parser>
+            <parser storageKey="res_resign_resign_ticket_second_step_from_station_name">
+                <rule type="elements_to_elements" value="input[name=orderRequest.from_station_name]"></rule>
+                <rule type="elements_to_string" order="select_first_element_attr" value="value"></rule>
+            </parser>
+            <parser storageKey="res_resign_resign_ticket_second_step_to_station_telecode">
+                <rule type="elements_to_elements" value="input[name=orderRequest.to_station_telecode]"></rule>
+                <rule type="elements_to_string" order="select_first_element_attr" value="value"></rule>
+            </parser>
+            <parser storageKey="res_resign_resign_ticket_second_step_to_station_name">
+                <rule type="elements_to_elements" value="input[name=orderRequest.to_station_name]"></rule>
+                <rule type="elements_to_string" order="select_first_element_attr" value="value"></rule>
+            </parser>
+            <parser storageKey="res_resign_resign_ticket_second_step_error_msg">
+                <rule type="elements_to_string" order="select_element_data" value="script[language=javascript]"></rule>
+                <rule type="string_to_string" order="string_regex" value=".*var message = &quot;.*"></rule>
+                <rule type="string_to_string" order="string_remove" value="var message = &quot;"></rule>
+                <rule type="string_to_string" order="string_remove" value="&quot;;"></rule>
+            </parser>
+        </parserList>
+        <result>
+            <resultKey>action_resign_resign_ticket_second_step</resultKey>
+        </result>
+    </action>
+    
+    <action key="action_resign_get_ticket_get_passenger_info" isShowDialog="Y" resultType="string">
+        <paramList>
+            <param name="uri" value="/otsweb/order/confirmPassengerAction.do"></param>
+            <param name="method" value="getpassengerJson"></param>
+            <param name="Referer" value="https://dynamic.12306.cn/otsweb/order/confirmPassengerAction.do?method=init"></param>
+        </paramList>
+        <parserList>
+            <parser storageKey="res_resign_get_ticket_get_passenger_info">
+                <rule type="string_to_json"></rule>
+                <rule type="json_to_string" value="passengerJson"></rule>
+                <rule type="string_to_json_array"></rule>
+                <rule type="json_array_to_two_dimensional_array"></rule>
+            </parser>
+            <parser storageKey="res_resign_get_ticket_get_passenger_login_timeout_string">
+                <rule type="string_to_elements"></rule>
+                <rule type="elements_to_string" order="select_element_text" value="title"></rule>
+            </parser>
+        </parserList>
+        <result>
+            <resultKey>action_resign_get_ticket_get_passenger_info</resultKey>
+            <nextActionKey>action_resign_get_ticket_detail</nextActionKey>
+        </result>
+    </action>
+    <action key="action_resign_get_ticket_detail" isShowDialog="Y" resultType="elements" encoding="UTF-8">
+        <paramList>
+            <param name="uri" value="/otsweb/order/queryResignAction.do"></param>
+            <param name="method" value="submutOrderRequest"></param>
+            <param key="key_arrive_time" name="arrive_time"></param>
+            <param key="key_from_station_name_in_ticket_detail" name="from_station_name"></param>
+            <param key="key_from_station_no" name="from_station_no"></param>
+            <param key="key_from_station_telecode" name="from_station_telecode"></param>
+            <param key="key_from_station_name" name="from_station_telecode_name"></param>
+            <param name="include_student" value="00"></param>
+            <param key="key_lishi" name="lishi"></param>
+            <param key="key_from_station_backup_1" name="locationCode"></param>
+            <param key="key_mmStr" name="mmStr"></param>
+            <param name="round_start_time_str" value="00:00--24:00"></param>
+            <param key="key_round_train_date" name="round_train_date"></param>
+            <param name="seattype_num" value=""></param>
+            <param name="single_round_type" value="1"></param>
+            <param name="start_time_str" value="00:00--24:00"></param>
+            <param key="key_station_train_code" name="station_train_code"></param>
+            <param key="key_to_station_name_in_ticket_detail" name="to_station_name"></param>
+            <param key="key_to_station_no" name="to_station_no"></param>
+            <param key="key_to_station_telecode" name="to_station_telecode"></param>
+            <param key="key_to_station_telecode_name" name="to_station_telecode_name"></param>
+            <param key="key_to_station_name" name="to_station_telecode_name"></param>
+            <param name="train_class_arr" value="QB#D#Z#T#K#QT#"></param>
+            <param key="key_train_date" name="train_date"></param>
+            <param name="train_pass_type" value="QB"></param>
+            <param key="key_train_start_time" name="train_start_time"></param>
+            <param key="key_trainno3" name="trainno"></param>
+            <param key="key_ypInfoDetail" name="ypInfoDetail"></param>
+            
+        </paramList>
+        <parserList>
+            <parser storageKey="res_resign_old_order_value">
+                <rule type="elements_to_elements" value="table[class=table_list] tr:not(tr[class=table_th2]) td"></rule>
+                <rule type="elements_to_array" order="get_text"></rule>
+                <rule type="array_to_string" order="order_remove_blank_and_add_x" value="@"></rule>
+                <rule type="string_to_array_string" value="@"></rule>
+            </parser>
+            <parser storageKey="res_resign_old_order_title">
+                <rule type="elements_to_elements" value="tr[class=table_th2]>td"></rule>
+                <rule type="elements_to_array" order="get_text"></rule>
+            </parser>
+            <parser storageKey="res_resign_ticket_detail_ticket_price">
+                <rule type="elements_to_elements" value="table[class=qr_box] td:not(td[class=bluetext],td[class=redtext])"></rule>
+                <rule type="elements_to_array" order="get_text"></rule>
+            </parser>
+            <parser storageKey="res_resign_ticket_detail_card_type">
+                <rule type="elements_to_elements" value="select[name=passenger_1_cardtype] option"></rule>
+                <rule type="elements_to_two_dimensional_array" order="get_attr_text" value="value"></rule>
+            </parser>
+            <parser storageKey="res_resign_ticket_detail_supported_seat_type">
+                <rule type="elements_to_elements" value="select[name=passenger_1_seat] option"></rule>
+                <rule type="elements_to_two_dimensional_array" order="get_attr_text" value="value"></rule>
+            </parser>
+            <parser storageKey="res_resign_ticket_detail_ticket_type">
+                <rule type="elements_to_elements" value="select[name=passenger_1_ticket] option"></rule>
+                <rule type="elements_to_two_dimensional_array" order="get_attr_text" value="value"></rule>
+            </parser>
+            <parser storageKey="res_resign_ticket_detail_token">
+                <rule type="elements_to_elements" value="input[name=org.apache.struts.taglib.html.TOKEN]"></rule>
+                <rule type="elements_to_string" order="select_first_element_attr" value="value"></rule>
+            </parser>
+            <parser storageKey="res_resign_ticket_detail_init_error">
+                <rule type="elements_to_string" order="select_element_data" value="script[language=javascript]"></rule>
+                <rule type="string_to_string" order="string_regex" value=".*var message = &quot;.*"></rule>
+                <rule type="string_to_string" order="string_remove" value="var message = &quot;"></rule>
+                <rule type="string_to_string" order="string_remove" value="&quot;;"></rule>
+            </parser>
+            <parser storageKey="res_resign_ticket_detail_init_ticket_left_str">
+                <rule type="elements_to_elements" value="input[name=leftTicketStr]"></rule>
+                <rule type="elements_to_string" order="select_first_element_attr" value="value"></rule>
+            </parser>
+            <parser storageKey="res_resign_ticket_detail_old_ticket_info">
+                <rule type="elements_to_elements" value="tr[class=table_th2]+tr td"></rule>
+                <rule type="elements_to_array" order="get_text"></rule>
+            </parser>
+            <parser storageKey="res_resign_ticket_detail_get_submit_params_before_submit">
+                <rule type="elements_to_elements" value="form[name=save_passenger_resign] input[name,type=hidden]:not(input[name=MobileNo])"></rule>
+                <rule type="elements_to_two_dimensional_array" order="get_input_value_pair"></rule>
+            </parser>
+        </parserList>
+        <result>
+            <resultKey>action_resign_get_ticket_detail</resultKey>
+            <nextActionKey>action_resign_verify_code</nextActionKey>
+        </result>
+    </action>
+    <action key="action_resign_verify_code" resultType="stream" encoding="UTF-8">
+        <paramList>
+            <param name="uri" value="/otsweb/passCodeNewAction.do"></param>
+			<param name="module" value="passenger"></param>
+            <param name="rand" value="randp"></param>
+        </paramList>
+        <parserList>
+            <parser storageKey="res_resign_verify_code">
+                <rule type="stream_to_stream"></rule>
+            </parser>
+        </parserList>
+        <result>
+            <resultKey>action_resign_verify_code</resultKey>
+        </result>
+    </action>
+    <action key="action_resign_get_ticket_detail_refresh_token" isShowDialog="Y" resultType="elements" encoding="UTF-8">
+        <paramList>
+            <param name="uri" value="/otsweb/order/queryResignAction.do"></param>
+            <param name="method" value="submutOrderRequest"></param>
+            <param key="key_arrive_time" name="arrive_time"></param>
+            <param key="key_from_station_name_in_ticket_detail" name="from_station_name"></param>
+            <param key="key_from_station_no" name="from_station_no"></param>
+            <param key="key_from_station_telecode" name="from_station_telecode"></param>
+            <param key="key_from_station_name" name="from_station_telecode_name"></param>
+            <param name="include_student" value="00"></param>
+            <param key="key_lishi" name="lishi"></param>
+            <param key="key_from_station_backup_1" name="locationCode"></param>
+            <param key="key_mmStr" name="mmStr"></param>
+            <param name="round_start_time_str" value="00:00--24:00"></param>
+            <param key="key_round_train_date" name="round_train_date"></param>
+            <param name="seattype_num" value=""></param>
+            <param name="single_round_type" value="1"></param>
+            <param name="start_time_str" value="00:00--24:00"></param>
+            <param key="key_station_train_code" name="station_train_code"></param>
+            <param key="key_to_station_name_in_ticket_detail" name="to_station_name"></param>
+            <param key="key_to_station_no" name="to_station_no"></param>
+            <param key="key_to_station_telecode" name="to_station_telecode"></param>
+            <param key="key_to_station_telecode_name" name="to_station_telecode_name"></param>
+            <param key="key_to_station_name" name="to_station_telecode_name"></param>
+            <param name="train_class_arr" value="QB#D#Z#T#K#QT#"></param>
+            <param key="key_train_date" name="train_date"></param>
+            <param name="train_pass_type" value="QB"></param>
+            <param key="key_train_start_time" name="train_start_time"></param>
+            <param key="key_trainno3" name="trainno"></param>
+            <param key="key_ypInfoDetail" name="ypInfoDetail"></param>
+        </paramList>
+        <parserList>
+            <parser storageKey="res_resign_ticket_detail_token">
+                <rule type="elements_to_elements" value="input[name=org.apache.struts.taglib.html.TOKEN]"></rule>
+                <rule type="elements_to_string" order="select_first_element_attr" value="value"></rule>
+            </parser>
+        </parserList>
+        <result>
+            <resultKey>action_resign_get_ticket_detail_refresh_token</resultKey>
+            <nextActionKey>action_resign_refresh_verify_code</nextActionKey>
+        </result>
+    </action>
+    <action key="action_resign_refresh_verify_code" resultType="stream" encoding="UTF-8">
+        <paramList>
+            <param name="uri" value="/otsweb/passCodeNewAction.do"></param>
+			<param name="module" value="passenger"></param>
+            <param name="rand" value="randp"></param>
+        </paramList>
+        <parserList>
+            <parser storageKey="res_resign_verify_code">
+                <rule type="stream_to_stream"></rule>
+            </parser>
+        </parserList>
+        <result>
+            <resultKey>action_resign_verify_code</resultKey>
+        </result>
+    </action>
+    <action key="action_resign_submit_resign_pre_1" isShowDialog="Y" resultType="string" encoding="UTF-8">
+        <paramList>
+            <param name="uri" value="/otsweb/order/confirmPassengerAction.do"></param>
+            <param name="method" value="checkOrderInfo"></param>
+            
+            <param key="key_arrive_time" name="orderRequest.end_time"></param>
+            <param key="key_from_station_name_in_ticket_detail" name="orderRequest.from_station_name"></param>
+            <param key="key_from_station_telecode" name="orderRequest.from_station_telecode"></param>
+            <param key="key_train_start_time" name="orderRequest.start_time"></param>
+            <param key="key_station_train_code" name="orderRequest.station_train_code"></param>
+            <param key="key_to_station_name_in_ticket_detail" name="orderRequest.to_station_name"></param>
+            <param key="key_to_station_telecode" name="orderRequest.to_station_telecode"></param>
+            <param key="key_ticket_list_train_date" name="orderRequest.train_date"></param>
+            <param key="key_trainno3" name="orderRequest.train_no"></param>
+            <param key="res_resign_ticket_detail_token" name="org.apache.struts.taglib.html.TOKEN"></param>
+            
+            <param name="orderRequest.bed_level_order_num" value="000000000000000000000000000000"></param>
+            <param name="orderRequest.cancel_flag" value="1"></param>
+            <param name="orderRequest.id_mode" value="Y"></param>
+            <param name="orderRequest.reserve_flag" value="A"></param>
+            
+            <param key="key2_passengerTickets_1" name="passengerTickets"></param>
+            <param key="key2_passengerTickets_2" name="passengerTickets"></param>
+            <param key="key2_passengerTickets_3" name="passengerTickets"></param>
+            <param key="key2_passengerTickets_4" name="passengerTickets"></param>
+            <param key="key2_passengerTickets_5" name="passengerTickets"></param>
+            
+            <param key="key2_passenger_1_seat" name="passenger_1_seat"></param>
+            <param key="key2_passenger_2_seat" name="passenger_2_seat"></param>
+            <param key="key2_passenger_3_seat" name="passenger_3_seat"></param>
+            <param key="key2_passenger_4_seat" name="passenger_4_seat"></param>
+            <param key="key2_passenger_5_seat" name="passenger_5_seat"></param>
+            
+            <param key="input_ticketdetail_randCode" name="rand"></param>
+            <param key="input_ticketdetail_randCode" name="randCode"></param>
+            <param key="res_resign_ticket_detail_init_ticket_left_str" name="leftTicketStr"></param>
+            
+            <param name="Referer" value="https://dynamic.12306.cn/otsweb/order/confirmPassengerResignAction.do?method=init"></param>
+            
+        </paramList>
+        <parserList>
+            <parser storageKey="res_ticket_detail_submit_ticket_resign_pre_1_err_msg">
+                <rule type="string_to_json"></rule>
+                <rule type="json_to_string" value="errMsg"></rule>
+            </parser>
+            <parser storageKey="res_ticket_detail_submit_ticket_resign_pre_1_msg">
+                <rule type="string_to_json"></rule>
+                <rule type="json_to_string" value="msg"></rule>
+            </parser>
+        </parserList>
+        <result>
+			<resultKey>action_resign_submit_resign_pre_1</resultKey>
+            <nextActionList>
+                <next expResultKey="res_ticket_detail_submit_ticket_resign_pre_1_msg" expectResultType="max_length" expectResultValue="1" nextActionKey="action_resign_submit_resign_pre_2"></next>
+                <next expectResultType="sys_else" nextActionKey="action_resign_get_ticket_detail_refresh_token"></next>
+            </nextActionList>
+		</result>
+    </action>
+    <action key="action_resign_submit_resign_pre_2" isShowDialog="Y" resultType="string" isPost="N">
+        <paramList>
+            <param name="uri" value="/otsweb/order/confirmPassengerAction.do"></param>
+            <param name="method" value="getQueueCount"></param>
+            <param key="key_ticket_list_train_date" name="train_date"></param>
+            <param key="key_from_station_telecode" name="from"></param>
+            <param key="key_to_station_telecode" name="to"></param>
+            <param key="key_station_train_code" name="station"></param>
+            <param key="res_resign_ticket_detail_init_ticket_left_str" name="ticket"></param>
+            <param key="key2_passenger_1_seat" name="seat"></param>
+            <param key="key_trainno3" name="train_no"></param>
+            <param name="Referer" value="https://dynamic.12306.cn/otsweb/order/confirmPassengerResignAction.do?method=init"></param>
+        </paramList>
+        <parserList>
+        </parserList>
+        <result>
+            <resultKey>action_resign_submit_resign_pre_2</resultKey>
+            <nextActionKey>action_resign_submit_resign_pre_3</nextActionKey>
+        </result>
+    </action>
+    <action key="action_resign_submit_resign_pre_3" resultType="stream" encoding="UTF-8">
+        <paramList>
+            <param name="uri" value="/otsweb/order/confirmPassengerResignAction.do"></param>
+            <param name="method" value="confirmPassengerInfoResignForQueue"></param>
+            
+            <param key="key_arrive_time" name="orderRequest.end_time"></param>
+            <param key="key_from_station_name_in_ticket_detail" name="orderRequest.from_station_name"></param>
+            <param key="key_from_station_telecode" name="orderRequest.from_station_telecode"></param>
+            <param key="key_train_start_time" name="orderRequest.start_time"></param>
+            <param key="key_station_train_code" name="orderRequest.station_train_code"></param>
+            <param key="key_to_station_name_in_ticket_detail" name="orderRequest.to_station_name"></param>
+            <param key="key_to_station_telecode" name="orderRequest.to_station_telecode"></param>
+            <param key="key_ticket_list_train_date" name="orderRequest.train_date"></param>
+            <param key="key_trainno3" name="orderRequest.train_no"></param>
+            <param key="res_resign_ticket_detail_token" name="org.apache.struts.taglib.html.TOKEN"></param>
+            
+            <param name="orderRequest.bed_level_order_num" value="000000000000000000000000000000"></param>
+            <param name="orderRequest.cancel_flag" value="1"></param>
+            <param name="orderRequest.id_mode" value="Y"></param>
+            <param name="orderRequest.reserve_flag" value="A"></param>
+            
+            <param key="key2_passengerTickets_1" name="passengerTickets"></param>
+            <param key="key2_passengerTickets_2" name="passengerTickets"></param>
+            <param key="key2_passengerTickets_3" name="passengerTickets"></param>
+            <param key="key2_passengerTickets_4" name="passengerTickets"></param>
+            <param key="key2_passengerTickets_5" name="passengerTickets"></param>
+            
+            <param key="key2_passenger_1_seat" name="passenger_1_seat"></param>
+            <param key="key2_passenger_2_seat" name="passenger_2_seat"></param>
+            <param key="key2_passenger_3_seat" name="passenger_3_seat"></param>
+            <param key="key2_passenger_4_seat" name="passenger_4_seat"></param>
+            <param key="key2_passenger_5_seat" name="passenger_5_seat"></param>
+            
+            <param key="input_ticketdetail_randCode" name="rand"></param>
+            <param key="input_ticketdetail_randCode" name="randCode"></param>
+            <param key="res_resign_ticket_detail_init_ticket_left_str" name="leftTicketStr"></param>
+            
+            <param name="Referer" value="https://dynamic.12306.cn/otsweb/order/confirmPassengerResignAction.do?method=init"></param>
+            
+        </paramList>
+        <parserList>
+            <parser storageKey="res_resign_submit_resign_pre_3_err_msg">
+                <rule type="stream_to_string"></rule>
+                <rule type="string_to_json"></rule>
+                <rule type="json_to_string" value="errMsg"></rule>
+            </parser>
+        </parserList>
+        <result>
+            <resultKey>action_resign_submit_resign_pre_3</resultKey>
+            <nextActionList>
+                <next expResultKey="res_resign_submit_resign_pre_3_err_msg" expectResultType="equal" expectResultValue="Y" nextActionKey="action_resign_submit_resign_pre_4_get_wait_time"></next>
+                <next expectResultType="sys_else" nextActionKey="action_resign_get_ticket_detail_refresh_token"></next>
+            </nextActionList>
+        </result>
+    </action>
+    <action key="action_resign_submit_resign_pre_4_get_wait_time" resultType="string" encoding="UTF-8">
+        <paramList>
+            <param name="uri" value="/otsweb/order/myOrderAction.do"></param>
+            <param name="method" value="queryOrderWaitTime"></param>
+            <param name="tourFlag" value="dc"></param>
+            <param name="Referer" value="https://dynamic.12306.cn/otsweb/order/confirmPassengerResignAction.do?method=init"></param>
+        </paramList>
+        <parserList>
+            <parser storageKey="res_resign_submit_resign_pre_4_get_wait_time_msg">
+                <rule type="string_to_json"></rule>
+                <rule type="json_to_string" value="msg"></rule>
+            </parser>
+            <parser storageKey="res_resign_submit_resign_pre_4_get_wait_time_wait_time">
+                <rule type="string_to_json"></rule>
+                <rule type="json_to_string" value="waitTime"></rule>
+            </parser>
+            <parser storageKey="res_resign_submit_resign_pre_4_get_wait_time_order_id">
+                <rule type="string_to_json"></rule>
+                <rule type="json_to_string" value="orderId"></rule>
+            </parser>
+        </parserList>
+        <result>
+            <resultKey>action_resign_submit_resign_pre_4_get_wait_time</resultKey>
+            <nextActionList>
+                <next expResultKey="res_resign_submit_resign_pre_4_get_wait_time_order_id" expectResultType="min_length" expectResultValue="1" nextActionKey="action_resign_submit_resign_pre_5_confirm_info"></next>
+                <next expResultKey="res_resign_submit_resign_pre_4_get_wait_time_wait_time" expectResultType="int_min_value" expectResultValue="0" nextActionKey="action_resign_submit_resign_pre_4_get_wait_time"></next>
+                <next expResultKey="res_resign_submit_resign_pre_4_get_wait_time_wait_time" expectResultType="int_max_value" expectResultValue="0" nextActionKey="action_resign_submit_resign_pre_5_confirm_info"></next>
+            </nextActionList>
+        </result>
+    </action>
+    <action key="action_resign_submit_resign_pre_5_confirm_info" isShowDialog="Y" resultType="elements" encoding="UTF-8">
+        <paramList>
+            <param name="uri" value="/otsweb/order/confirmPassengerResignAction.do"></param>
+            <param name="method" value="resignPay"></param>
+            <param key="res_resign_submit_resign_pre_4_get_wait_time_order_id" name="orderSequence_no"></param>
+            
+            <param key="key_arrive_time" name="orderRequest.end_time"></param>
+            <param key="key_from_station_name_in_ticket_detail" name="orderRequest.from_station_name"></param>
+            <param key="key_from_station_telecode" name="orderRequest.from_station_telecode"></param>
+            <param key="key_train_start_time" name="orderRequest.start_time"></param>
+            <param key="key_station_train_code" name="orderRequest.station_train_code"></param>
+            <param key="key_to_station_name_in_ticket_detail" name="orderRequest.to_station_name"></param>
+            <param key="key_to_station_telecode" name="orderRequest.to_station_telecode"></param>
+            <param key="key_ticket_list_train_date" name="orderRequest.train_date"></param>
+            <param key="key_trainno3" name="orderRequest.train_no"></param>
+            <param key="res_resign_ticket_detail_token" name="org.apache.struts.taglib.html.TOKEN"></param>
+            
+            <param name="orderRequest.bed_level_order_num" value="000000000000000000000000000000"></param>
+            <param name="orderRequest.cancel_flag" value="1"></param>
+            <param name="orderRequest.id_mode" value="Y"></param>
+            <param name="orderRequest.reserve_flag" value="A"></param>
+            
+            <param key="key2_passengerTickets_1" name="passengerTickets"></param>
+            <param key="key2_passengerTickets_2" name="passengerTickets"></param>
+            <param key="key2_passengerTickets_3" name="passengerTickets"></param>
+            <param key="key2_passengerTickets_4" name="passengerTickets"></param>
+            <param key="key2_passengerTickets_5" name="passengerTickets"></param>
+            
+            <param key="key2_passenger_1_seat" name="passenger_1_seat"></param>
+            <param key="key2_passenger_2_seat" name="passenger_2_seat"></param>
+            <param key="key2_passenger_3_seat" name="passenger_3_seat"></param>
+            <param key="key2_passenger_4_seat" name="passenger_4_seat"></param>
+            <param key="key2_passenger_5_seat" name="passenger_5_seat"></param>
+            
+            <param key="input_ticketdetail_randCode" name="rand"></param>
+            <param key="input_ticketdetail_randCode" name="randCode"></param>
+            <param key="res_resign_ticket_detail_init_ticket_left_str" name="leftTicketStr"></param>
+            
+            <param name="Referer" value="https://dynamic.12306.cn/otsweb/order/confirmPassengerResignAction.do?method=init"></param>
+            
+        </paramList>
+        <parserList>
+            <parser storageKey="res_resign_submit_resign_pre_5_confirm_info_value">
+                <rule type="elements_to_elements" value="table[class=table_list] tr:not(tr[class=table_th2],tr[class=table_zpj]) td"></rule>
+                <rule type="elements_to_array" order="get_text"></rule>
+            </parser>
+            <parser storageKey="res_resign_submit_resign_pre_5_confirm_info_value_for_new_ui">
+                <rule type="elements_to_elements" value="table[class=table_list] tr:not(tr[class=table_th2],tr[class=table_zpj]) td"></rule>
+                <rule type="elements_to_string" order="all_text"></rule>
+                <rule type="string_to_string" order="string_remove_blank_and_add_x" value="#"></rule>
+                <rule type="string_to_string" order="string_replace" value="—,#"></rule>
+                <rule type="string_to_array_string" value="#"></rule>
+            </parser>
+            <parser storageKey="res_resign_submit_resign_pre_5_confirm_info_title">
+                <rule type="elements_to_elements" value="tr[class=table_th2]>td"></rule>
+                <rule type="elements_to_array" order="get_text"></rule>
+            </parser>
+            <parser storageKey="res_resign_submit_resign_pre_5_confirm_info_notice">
+                <rule type="elements_to_elements" value="tr[class=table_zpj]"></rule>
+                <rule type="elements_to_string" order="all_text"></rule>
+            </parser>
+            <parser storageKey="res_resign_submit_resign_pre_5_confirm_info_token">
+                <rule type="elements_to_elements" value="input[name=org.apache.struts.taglib.html.TOKEN]"></rule>
+                <rule type="elements_to_string" order="select_first_element_attr" value="value"></rule>
+            </parser>
+            <parser storageKey="res_resign_submit_resign_pre_5_confirm_info_res_to_determine_if_need_pay">
+                <rule type="elements_to_elements" value="div[class=wc_fontn]"></rule>
+                <rule type="elements_to_string" order="all_text"></rule>
+            </parser>
+            
+            <parser storageKey="res_resign_submit_resign_pre_5_confirm_info_pay_interface_name">
+                <rule type="elements_to_elements" value="input[name=interfaceName]"></rule>
+                <rule type="elements_to_string" order="select_first_element_attr" value="value"></rule>
+            </parser>
+            <parser storageKey="res_resign_submit_resign_pre_5_confirm_info_pay_interface_version">
+                <rule type="elements_to_elements" value="input[name=interfaceVersion]"></rule>
+                <rule type="elements_to_string" order="select_first_element_attr" value="value"></rule>
+            </parser>
+            <parser storageKey="res_resign_submit_resign_pre_5_confirm_info_pay_tran_data">
+                <rule type="elements_to_elements" value="input[name=tranData]"></rule>
+                <rule type="elements_to_string" order="select_first_element_attr" value="value"></rule>
+            </parser>
+            <parser storageKey="res_resign_submit_resign_pre_5_confirm_info_pay_mer_sign_msg">
+                <rule type="elements_to_elements" value="input[name=merSignMsg]"></rule>
+                <rule type="elements_to_string" order="select_first_element_attr" value="value"></rule>
+            </parser>
+            <parser storageKey="res_resign_submit_resign_pre_5_confirm_info_pay_appid">
+                <rule type="elements_to_elements" value="input[name=appId]"></rule>
+                <rule type="elements_to_string" order="select_first_element_attr" value="value"></rule>
+            </parser>
+            <parser storageKey="res_resign_submit_resign_pre_5_confirm_info_pay_trans_type">
+                <rule type="elements_to_elements" value="input[name=transType]"></rule>
+                <rule type="elements_to_string" order="select_first_element_attr" value="value"></rule>
+            </parser>
+            <parser storageKey="res_resign_submit_resign_pre_5_confirm_info_pay_batch_no">
+                <rule type="elements_to_elements" value="input[name=batch_no]"></rule>
+                <rule type="elements_to_string" order="select_first_element_attr" value="value"></rule>
+            </parser>
+            <parser storageKey="res_resign_submit_resign_confirm_resign_begin_time">
+                <rule type="elements_to_string" order="select_element_data_all" value="script:not(script[src],script[type],script[language=javascript])"></rule>
+                <rule type="string_to_string" order="string_regex" value=".*var loseTime = &quot;.*"></rule>
+                <rule type="string_to_string" order="string_remove" value="var loseTime = &quot;"></rule>
+                <rule type="string_to_string" order="string_remove" value="&quot;;"></rule>
+            </parser>
+            <parser storageKey="res_resign_submit_resign_confirm_resign_start_time">
+                <rule type="elements_to_string" order="select_element_data_all" value="script:not(script[src],script[type],script[language=javascript])"></rule>
+                <rule type="string_to_string" order="string_regex" value=".*var beginTime = &quot;.*"></rule>
+                <rule type="string_to_string" order="string_remove" value="var beginTime = &quot;"></rule>
+                <rule type="string_to_string" order="string_remove" value="&quot;;"></rule>
+            </parser>
+        </parserList>
+        <result>
+            <resultKey>action_resign_submit_resign_pre_5_confirm_info</resultKey>
+        </result>
+    </action>
+    <action key="action_resign_submit_resign_confirm_resign" isShowDialog="Y" resultType="elements" encoding="UTF-8">
+        <paramList>
+            <param name="uri" value="/otsweb/order/payConfirmOnlineResignAction.do"></param>
+            <param name="method" value="payConfirmOnlineResignN"></param>
+            <param key="res_resign_submit_resign_pre_5_confirm_info_pay_batch_no" name="batch_no"></param>
+            <param key="res_resign_submit_resign_pre_4_get_wait_time_order_id" name="sequence_no"></param>
+            <param key="res_resign_submit_resign_pre_5_confirm_info_token" name="org.apache.struts.taglib.html.TOKEN"></param>
+            
+            <param key="key_resign_submit_resign_confirm_resign_referer" name="Referer"></param>
+        </paramList>
+        <parserList>
+            <parser storageKey="res_resign_submit_resign_confirm_resign_value">
+                <rule type="elements_to_elements" value="table[class=table_list] tr:not(tr[class=table_th2],tr[class=table_zpj]) td"></rule>
+                <rule type="elements_to_array" order="get_text"></rule>
+                <rule type="array_to_string" order="order_remove_blank_and_add_x" value="@"></rule>
+                <rule type="string_to_array_string" value="@"></rule>
+            </parser>
+            <parser storageKey="res_resign_submit_resign_confirm_resign_title">
+                <rule type="elements_to_elements" value="tr[class=table_th2]>td"></rule>
+                <rule type="elements_to_array" order="get_text"></rule>
+            </parser>
+            <parser storageKey="res_resign_submit_resign_confirm_resign_notice">
+                <rule type="elements_to_elements" value="div[class=wc_fontn]"></rule>
+                <rule type="elements_to_string" order="all_text"></rule>
+            </parser>
+            <parser storageKey="res_resign_submit_resign_confirm_resign_error_msg">
+                <rule type="elements_to_string" order="select_element_data" value="script[language=javascript]"></rule>
+                <rule type="string_to_string" order="string_regex" value=".*var message = &quot;.*"></rule>
+                <rule type="string_to_string" order="string_remove" value="var message = &quot;"></rule>
+                <rule type="string_to_string" order="string_remove" value="&quot;;"></rule>
+            </parser>
+            
+        </parserList>
+        <result>
+            <resultKey>action_resign_submit_resign_confirm_resign</resultKey>
+        </result>
+    </action>
+    <action key="action_resign_submit_resign_confirm_resign_need_return_money" isShowDialog="Y" resultType="elements" encoding="UTF-8">
+        <paramList>
+            <param name="uri" value="/otsweb/order/payConfirmOnlineResignAction.do"></param>
+            <param name="method" value="payConfirmOnlineResignT"></param>
+            <param key="res_resign_submit_resign_pre_5_confirm_info_pay_batch_no" name="batch_no"></param>
+            <param key="res_resign_submit_resign_pre_4_get_wait_time_order_id" name="sequence_no"></param>
+            <param key="res_resign_submit_resign_pre_5_confirm_info_token" name="org.apache.struts.taglib.html.TOKEN"></param>
+            
+            <param key="key_resign_submit_resign_confirm_resign_referer" name="Referer"></param>
+        </paramList>
+        <parserList>
+            <parser storageKey="res_resign_submit_resign_confirm_resign_value">
+                <rule type="elements_to_elements" value="table[class=table_list] tr:not(tr[class=table_th2],tr[class=table_zpj]) td"></rule>
+                <rule type="elements_to_array" order="get_text"></rule>
+                <rule type="array_to_string" order="order_remove_blank_and_add_x" value="@"></rule>
+                <rule type="string_to_array_string" value="@"></rule>
+            </parser>
+            <parser storageKey="res_resign_submit_resign_confirm_resign_title">
+                <rule type="elements_to_elements" value="tr[class=table_th2]>td"></rule>
+                <rule type="elements_to_array" order="get_text"></rule>
+            </parser>
+            <parser storageKey="res_resign_submit_resign_confirm_resign_notice">
+                <rule type="elements_to_elements" value="div[class=wc_fontn]"></rule>
+                <rule type="elements_to_string" order="all_text"></rule>
+            </parser>
+            <parser storageKey="res_resign_submit_resign_confirm_resign_error_msg">
+                <rule type="elements_to_string" order="select_element_data" value="script[language=javascript]"></rule>
+                <rule type="string_to_string" order="string_regex" value=".*var message = &quot;.*"></rule>
+                <rule type="string_to_string" order="string_remove" value="var message = &quot;"></rule>
+                <rule type="string_to_string" order="string_remove" value="&quot;;"></rule>
+            </parser>
+        </parserList>
+        <result>
+            <resultKey>action_resign_submit_resign_confirm_resign</resultKey>
+        </result>
+    </action>
+    <action key="action_resign_submit_resign_net_pay" isShowDialog="Y" resultType="elements" encoding="UTF-8">
+        <paramList>
+            <param name="new_main" value="https://epay.12306.cn"></param>
+            <param name="uri" value="/pay/payGateway"></param>
+            <param key="res_resign_submit_resign_pre_5_confirm_info_pay_appid" name="appId"></param>
+            <param key="res_resign_submit_resign_pre_5_confirm_info_pay_interface_name" name="interfaceName"></param>
+            <param key="res_resign_submit_resign_pre_5_confirm_info_pay_interface_version" name="interfaceVersion"></param>
+            <param key="res_resign_submit_resign_pre_5_confirm_info_pay_mer_sign_msg" name="merSignMsg"></param>
+            <param key="res_resign_submit_resign_pre_5_confirm_info_pay_tran_data" name="tranData"></param>
+            <param key="res_resign_submit_resign_pre_5_confirm_info_pay_trans_type" name="transType"></param>
+        </paramList>
+        <parserList>
+            <parser storageKey="res_submit_success_order_time_out_date">
+                <rule type="elements_to_elements" value="input[name=orderTimeoutDate]"></rule>
+                <rule type="elements_to_string" order="select_first_element_attr" value="value"></rule>
+            </parser>
+            <parser storageKey="res_submit_success_channel_id">
+                <rule type="elements_to_elements" value="input[name=channelId]"></rule>
+                <rule type="elements_to_string" order="select_first_element_attr" value="value"></rule>
+            </parser>
+            <parser storageKey="res_submit_success_bank_list_name">
+                <rule type="elements_to_elements" value="img[onclick]"></rule>
+                <rule type="elements_to_array" order="get_attr" value="title"></rule>
+            </parser>
+            <parser storageKey="res_submit_success_bank_list_code">
+                <rule type="elements_to_elements" value="img[onclick]"></rule>
+                <rule type="elements_to_array" order="get_attr" value="onclick"></rule>
+                <rule type="array_to_array" order="string_remove" value="javascript:formsubmit('"></rule>
+                <rule type="array_to_array" order="string_remove" value="');"></rule>
+            </parser>
+            
+            <parser storageKey="res_pay_interface_name">
+                <rule type="elements_to_elements" value="input[name=interfaceName]"></rule>
+                <rule type="elements_to_string" order="select_first_element_attr" value="value"></rule>
+            </parser>
+            <parser storageKey="res_pay_interface_version">
+                <rule type="elements_to_elements" value="input[name=interfaceVersion]"></rule>
+                <rule type="elements_to_string" order="select_first_element_attr" value="value"></rule>
+            </parser>
+            <parser storageKey="res_pay_tran_data">
+                <rule type="elements_to_elements" value="input[name=tranData]"></rule>
+                <rule type="elements_to_string" order="select_first_element_attr" value="value"></rule>
+            </parser>
+            <parser storageKey="res_pay_mer_sign_msg">
+                <rule type="elements_to_elements" value="input[name=merSignMsg]"></rule>
+                <rule type="elements_to_string" order="select_first_element_attr" value="value"></rule>
+            </parser>
+            <parser storageKey="res_pay_appid">
+                <rule type="elements_to_elements" value="input[name=appId]"></rule>
+                <rule type="elements_to_string" order="select_first_element_attr" value="value"></rule>
+            </parser>
+            <parser storageKey="res_pay_trans_type">
+                <rule type="elements_to_elements" value="input[name=transType]"></rule>
+                <rule type="elements_to_string" order="select_first_element_attr" value="value"></rule>
+            </parser>
+        </parserList>
+        <result>
+            <resultKey>action_resign_submit_resign_net_pay</resultKey>
+        </result>
+    </action>
+</actionList>
+
+<!-- 招行支付界面   bankPay -->
+<actionList key="list_action_cmb_bank_pay">
+	<action key="action_init_bank_pay" isShowDialog="Y" resultType="elements" encoding="UTF-8">
+		<paramList>
+			<param name="new_main" value="https://epay.12306.cn"></param>
+			<param name="uri" value="/pay/webBusiness"></param>
+			<param name="method" value="queryMyOrderNotComplete"></param>
+			<param name="leftmenu" value="Y"></param>
+			<param key="res_pay_appid" name="appId"></param>
+			<param key="res_pay_interface_name" name="interfaceName"></param>
+			<param key="res_pay_interface_version" name="interfaceVersion"></param>
+			<param key="res_pay_mer_sign_msg" name="merSignMsg"></param>
+			<param key="res_pay_tran_data" name="tranData"></param>
+			<param key="res_pay_trans_type" name="transType"></param>
+			<param key="res_submit_success_channel_id" name="channelId"></param>
+			<param key="res_submit_success_order_time_out_date" name="orderTimeoutDate"></param>
+			<param key="key_bank_pay_bank_id" name="bankId"></param>
+		</paramList>
+		<parserList>
+			<parser storageKey="res_init_bank_for_cmb_bank_request">
+				<rule type="elements_to_elements" value="input"></rule>
+				<rule type="elements_to_two_dimensional_array" order="get_input_value_pair"></rule>
+			</parser>
+		</parserList>
+		<result>
+			<resultKey>action_init_bank_pay</resultKey>
+			<nextActionKey>action_init_bank_pay_2</nextActionKey>
+		</result>
+	</action>
+	<action key="action_init_bank_pay_2"  resultType="elements" encoding="GB2312">
+		<paramList>
+			<param name="new_main" value="https://netpay.cmbchina.com"></param>
+			<param name="uri" value="/netpayment/BaseHttp.dll?PrePayC2"></param>
+			<param name="Referer" value="https://epay.12306.cn/pay/webBusiness"></param>
+			<param key="res_init_bank_for_cmb_bank_request"></param>
+		</paramList>
+		<parserList>
+			<parser storageKey="res_cmb_init_client_no">
+				<rule type="elements_to_string" order="select_element_data" value="script[type=text/javascript]:not(script[src])"></rule>
+				<rule type="string_to_string" order="string_regex" value="var clientNo = &quot;.*"></rule>
+				<rule type="string_to_string" order="string_remove" value="var clientNo = &quot;"></rule>
+				<rule type="string_to_string" order="string_remove" value="&quot;;"></rule>
+			</parser>
+			<parser storageKey="res_cmb_init_serial_no">
+				<rule type="elements_to_string" order="select_element_data" value="script[type=text/javascript]:not(script[src])"></rule>
+				<rule type="string_to_string" order="string_regex" value="var serialNo = &quot;.*"></rule>
+				<rule type="string_to_string" order="string_remove" value="var serialNo = &quot;"></rule>
+				<rule type="string_to_string" order="string_remove" value="&quot;;"></rule>
+			</parser>
+			
+			<parser storageKey="res_cmb_init_cmd_no_net_pay">
+				<rule type="elements_to_elements" value="script[src=jsLib/NetPay_Main.js]"></rule>
+				<rule type="elements_to_string" order="all_text"></rule>
+				<rule type="string_to_string" order="string_add" value="A"></rule>
+			</parser>
+			<parser storageKey="res_cmb_init_cmd_no_credit_card">
+				<rule type="elements_to_elements" value="script[src=jsLib/NetPay_Main.js]"></rule>
+				<rule type="elements_to_string" order="all_text"></rule>
+				<rule type="string_to_string" order="string_add" value="C"></rule>
+			</parser>
+			<parser storageKey="key_cmb_init_acct_type">
+				<rule type="elements_to_string" order="all_text"></rule>
+				<rule type="string_to_string" order="string_add" value="C"></rule>
+			</parser>
+		</parserList>
+		<result>
+			<resultKey>action_init_bank_pay_2</resultKey>
+			<nextActionKey>action_cmb_pay_get_pay_param_array</nextActionKey>
+		</result>
+	</action>
+	<action key="action_cmb_pay_get_pay_param_array"  resultType="elements" encoding="UTF-8">
+		<paramList>
+			<param name="new_main" value="https://netpay.cmbchina.com"></param>
+			<param name="uri" value="/netpayment/BaseHttp.dll?PC_Pay_Mobile"></param>
+			<param name="Referer" value="https://netpay.cmbchina.com/netpayment/BaseHttp.dll?PrePayC2"></param>
+			
+			<param key="res_cmb_init_client_no" name="ClientNo"></param>
+			<param key="res_cmb_init_serial_no" name="SerialNo"></param>
+		</paramList>
+		<parserList>
+			<parser storageKey="res_cmd_pay_get_pay_params_before_pay">
+				<rule type="elements_to_elements" value="form[id=MobilePayForm] input:not(input[name=MobileNo],input[name=CardNo],input[name=AcctType],input[name=DynaCode])"></rule>
+				<rule type="elements_to_two_dimensional_array" order="get_input_value_pair"></rule>
+			</parser>
+		</parserList>
+		<result>
+			<resultKey>action_cmb_pay_get_pay_param_array</resultKey>
+			<nextActionKey>action_get_verify_code</nextActionKey>
+		</result>
+	</action>
+	<action key="action_get_verify_code" resultType="stream">
+		<paramList>
+			<param name="new_main" value="https://netpay.cmbchina.com"></param>
+			<param name="Referer" value="https://netpay.cmbchina.com/netpayment/BaseHttp.dll?PrePayC2"></param>
+			<param name="uri" value="/netpayment/BaseHttp.dll?SessionBmp"></param>
+			<param key="res_cmb_init_client_no" name="ClientNo"></param>
+			<param name="RandNo" value="8899"></param>
+			<param key="res_cmb_init_serial_no" name="SerialNo"></param>
+		</paramList>
+		<parserList>
+			<parser storageKey="res_init_bank_verify_code_for_cmb_pay">
+				<rule type="stream_to_stream"></rule>
+			</parser>
+		</parserList>
+		<result>
+			<resultKey>action_get_verify_code</resultKey>
+		</result>
+	</action>
+	<action key="action_get_refresh_verify_code" isShowDialog="Y" resultType="stream">
+		<paramList>
+			<param name="new_main" value="https://netpay.cmbchina.com"></param>
+			<param name="Referer" value="https://netpay.cmbchina.com/netpayment/BaseHttp.dll?PrePayC2"></param>
+			<param name="uri" value="/netpayment/BaseHttp.dll?SessionBmp"></param>
+			<param key="res_cmb_init_client_no" name="ClientNo"></param>
+			<param name="RandNo" value="8899"></param>
+			<param key="res_cmb_init_serial_no" name="SerialNo"></param>
+		</paramList>
+		<parserList>
+			<parser storageKey="res_init_bank_verify_code_for_cmb_pay">
+				<rule type="stream_to_stream"></rule>
+			</parser>
+		</parserList>
+		<result>
+			<resultKey>action_get_refresh_verify_code</resultKey>
+		</result>
+	</action>
+	<action key="action_cmd_pay" isShowDialog="Y" resultType="elements" encoding="GB2312">
+		<paramList>
+			<param name="new_main" value="https://netpay.cmbchina.com"></param>
+			<param name="uri" value="/netpayment/BaseHttp.dll?MobilePayProc"></param>
+			<param name="Referer" value="https://netpay.cmbchina.com/netpayment/BaseHttp.dll?PrePayC2"></param>
+			<param key="res_cmd_pay_get_pay_params_before_pay"></param>
+			<!-- 
+			<param key="res_cmb_init_client_no" name="ClientNo"></param>
+			<param key="res_cmb_init_serial_no" name="SerialNo"></param>
+			<param key="key_cmb_init_cmd_no" name="CmdNo"></param>
+			 -->
+			<param key="key_cmb_init_dyna_code" name="DynaCode"></param>
+			<param key="key_cmb_init_cmd_no" name="AcctType"></param>
+			<param key="key_cmb_init_mobile_no" name="MobileNo"></param>
+			<param key="key_cmb_init_card_no" name="CardNo"></param>
+			
+			
+		</paramList>
+		<parserList>
+			<parser storageKey="res_cmb_init_pay_result">
+				<rule type="elements_to_string" order="select_element_text" value="div[id=divErrMain]"></rule>
+			</parser>
+			<parser storageKey="res_cmb_init_pay_success_result">
+				<rule type="elements_to_string" order="select_element_text" value="div[id=divMsg]"></rule>
+				<rule type="string_to_string" order="string_sub_length" value="55"></rule>
+			</parser>
+		</parserList>
+		<result>
+			<resultKey>action_cmd_pay</resultKey>
+		</result>
+	</action>
+</actionList>
+
+<!-- 中国银联-建行支付 -->
+<actionList key="list_action_unionpay_ccb_pay">
+	<action key="action_init_bank_pay" isShowDialog="Y" resultType="elements" encoding="UTF-8">
+		<paramList>
+			<param name="new_main" value="https://epay.12306.cn"></param>
+			<param name="uri" value="/pay/webBusiness"></param>
+			<param name="method" value="queryMyOrderNotComplete"></param>
+			<param name="leftmenu" value="Y"></param>
+			<param key="res_pay_appid" name="appId"></param>
+			<param key="res_pay_interface_name" name="interfaceName"></param>
+			<param key="res_pay_interface_version" name="interfaceVersion"></param>
+			<param key="res_pay_mer_sign_msg" name="merSignMsg"></param>
+			<param key="res_pay_tran_data" name="tranData"></param>
+			<param key="res_pay_trans_type" name="transType"></param>
+			<param key="res_submit_success_channel_id" name="channelId"></param>
+			<param key="res_submit_success_order_time_out_date" name="orderTimeoutDate"></param>
+			<param key="key_bank_pay_bank_id" name="bankId"></param>
+		</paramList>
+		<parserList>
+			<parser storageKey="res_init_bank_ccb_bank_request_1">
+				<rule type="elements_to_elements" value="input"></rule>
+				<rule type="elements_to_two_dimensional_array" order="get_input_value_pair"></rule>
+			</parser>
+			<parser storageKey="res_ccb_bank_init_bank_error_msg_1">
+				<rule type="elements_to_elements" value="div[class=err1]"></rule>
+				<rule type="elements_to_string" order="all_text"></rule>
+			</parser>
+		</parserList>
+		<result>
+			<resultKey>action_init_bank_pay</resultKey>
+            <nextActionKey>action_init_bank_pay_2</nextActionKey>
+		</result>
+	</action>
+	<action key="action_init_bank_pay_2" resultType="elements" encoding="GB2312">
+		<paramList>
+			<param name="new_main" value="https://ibsbjstar.ccb.com.cn"></param>
+			<param name="uri" value="/app/CCBMainPlat"></param>
+			<param key="res_init_bank_ccb_bank_request_1"></param>
+		</paramList>
+		<parserList>
+			<parser storageKey="res_init_bank_ccb_bank_request_2_uri">
+				<rule type="elements_to_elements" value="iframe[id=mainframe]"></rule>
+				<rule type="elements_to_string" order="select_first_element_attr" value="src"></rule>
+				<rule type="string_to_string" order="string_remove" value="/app/B2CMainB1L5?"></rule>
+				<rule type="string_to_array_string" value="&amp;"></rule>
+				<rule type="array_to_two_dimensional_array" value="="></rule>
+			</parser>
+		</parserList>
+		<result>
+			<resultKey>action_init_bank_pay_2</resultKey>
+			<nextActionKey>action_init_bank_pay_3_get_price_and_code_for_bitmap</nextActionKey>
+		</result>
+	</action>
+	<action key="action_init_bank_pay_3_get_price_and_code_for_bitmap" resultType="elements" encoding="GB2312">
+		<paramList>
+			<param name="new_main" value="https://ibsbjstar.ccb.com.cn"></param>
+			<param name="uri" value="/app/B2CMainB1L5"></param>
+			<param name="GATEWAY" value=""></param>
+			<param key="res_init_bank_ccb_bank_request_2_uri"></param>
+			<param name="CHANNELTYPE" value=""></param>
+			<param name="PAYMENTTYPE" value=""></param>
+			<param name="Referer" value="https://ibsbjstar.ccb.com.cn/app/CCBMainPlat"></param>
+		</paramList>
+		<parserList>
+			<parser storageKey="res_init_bank_ccb_bank_request_price">
+				<rule type="elements_to_elements" value="input[name=PAYMENT]"></rule>
+				<rule type="elements_to_string" order="select_first_element_attr" value="value"></rule>
+			</parser>
+			<parser storageKey="res_init_bank_ccb_bank_request_code_for_bitmap">
+				<rule type="elements_to_elements" value="input[name=COOKIES]"></rule>
+				<rule type="elements_to_string" order="select_first_element_attr" value="value"></rule>
+			</parser>
+			<parser storageKey="res_init_bank_ccb_bank_request_3_value_pair_for_nxet">
+				<rule type="elements_to_elements" value="input[type=hidden]:not(input[name=ACCOUNT],input[name=PT_CONFIRM_PWD])"></rule>
+				<rule type="elements_to_two_dimensional_array" order="get_input_value_pair"></rule>
+			</parser>
+		</parserList>
+		<result>
+			<resultKey>action_init_bank_pay_3_get_price_and_code_for_bitmap</resultKey>
+			<nextActionKey>action_get_ccb_verify_code</nextActionKey>
+		</result>
+	</action>
+	<action key="action_get_ccb_verify_code" resultType="stream" isPost="N">
+		<paramList>
+			<param name="new_main" value="https://ibsbjstar.ccb.com.cn"></param>
+			<param name="uri" value="/NCCB_Encoder/Encoder"></param>
+			<param key="res_init_bank_ccb_bank_request_code_for_bitmap" name="CODE"></param>
+		</paramList>
+		<parserList>
+			<parser storageKey="res_ccb_bank_pay_verify_code_stream">
+				<rule type="stream_to_stream"></rule>
+			</parser>
+		</parserList>
+		<result>
+			<resultKey>action_get_ccb_verify_code</resultKey>
+		</result>
+	</action>
+	<action key="action_prepare_get_refresh_ccb_verify_code" isShowDialog="Y" resultType="stream" encoding="GB2312">
+		<paramList>
+			<param name="new_main" value="https://ibsbjstar.ccb.com.cn"></param>
+			<param name="uri" value="/app/B2CMainB1L5"></param>
+			<param name="CCB_IBSVersion" value="V5"></param>
+			<param name="SERVLET_NAME" value="B2CMainB1L5"></param>
+			<param name="TXCODE" value="100119"></param>
+			<param name="USERID" value=""></param>
+			<param name="SKEY" value=""></param>
+		</paramList>
+		<parserList>
+			<parser storageKey="res_ccb_bank_pay_prepare_get_ccb_verify_code">
+				<rule type="stream_to_string"></rule>
+			</parser>
+		</parserList>
+		<result>
+			<resultKey>action_prepare_get_refresh_ccb_verify_code</resultKey>
+			<nextActionKey>action_get_ccb_verify_code_just_for_refresh</nextActionKey>
+		</result>
+	</action>
+	<action key="action_get_ccb_verify_code_just_for_refresh" resultType="stream" encoding="GB2312">
+		<paramList>
+			<param name="new_main" value="https://ibsbjstar.ccb.com.cn"></param>
+			<param name="uri" value="/NCCB_Encoder/Encoder"></param>
+			<param key="res_ccb_bank_pay_prepare_get_ccb_verify_code" name="CODE"></param>
+		</paramList>
+		<parserList>
+			<parser storageKey="res_ccb_bank_pay_verify_code_stream">
+				<rule type="stream_to_stream"></rule>
+			</parser>
+		</parserList>
+		<result>
+			<resultKey>action_get_ccb_verify_code</resultKey>
+		</result>
+	</action>
+	<action key="action_prepare_get_ccb_verify_code" isShowDialog="Y" resultType="stream" encoding="GB2312">
+		<paramList>
+			<param name="new_main" value="https://ibsbjstar.ccb.com.cn"></param>
+			<param name="uri" value="/app/B2CMainB1L5"></param>
+			<param name="CCB_IBSVersion" value="V5"></param>
+			<param name="SERVLET_NAME" value="B2CMainB1L5"></param>
+			<param name="TXCODE" value="100119"></param>
+			<param name="USERID" value=""></param>
+			<param name="SKEY" value=""></param>
+		</paramList>
+		<parserList>
+			<parser storageKey="res_ccb_bank_pay_prepare_get_ccb_verify_code">
+				<rule type="stream_to_string"></rule>
+			</parser>
+		</parserList>
+		<result>
+			<resultKey>action_prepare_get_ccb_verify_code</resultKey>
+			<nextActionKey>action_get_ccb_verify_code_just_for_prepare_get_ccb_verify_code</nextActionKey>
+		</result>
+	</action>
+	<action key="action_get_ccb_verify_code_just_for_prepare_get_ccb_verify_code" resultType="stream" encoding="GB2312">
+		<paramList>
+			<param name="new_main" value="https://ibsbjstar.ccb.com.cn"></param>
+			<param name="uri" value="/NCCB_Encoder/Encoder"></param>
+			<param key="res_ccb_bank_pay_prepare_get_ccb_verify_code" name="CODE"></param>
+		</paramList>
+		<parserList>
+			<parser storageKey="res_ccb_bank_pay_verify_code_stream">
+				<rule type="stream_to_stream"></rule>
+			</parser>
+		</parserList>
+		<result>
+			<resultKey>action_get_ccb_verify_code</resultKey>
+		</result>
+	</action>
+	<action key="action_ccb_pay_at_last_1_step" isShowDialog="Y" resultType="elements" encoding="GB2312">
+		<paramList>
+			<param name="new_main" value="https://ibsbjstar.ccb.com.cn"></param>
+			<param name="uri" value="/app/B2CMainB1L5"></param>
+			<param name="CCB_IBSVersion" value="V5"></param>
+			<param name="SERVLET_NAME" value="B2CMainB1L5"></param>
+			<param key="key_uniompay_ccb_bank_pay_card_num" name="ACCOUNT"></param>
+			<param key="key_uniompay_ccb_bank_pay_card_num_a65" name="a65"></param>
+			<param key="key_uniompay_ccb_bank_pay_verify_code" name="PT_CONFIRM_PWD"></param>
+			<param key="res_init_bank_ccb_bank_request_3_value_pair_for_nxet"></param>
+		</paramList>
+		<parserList>
+			<parser storageKey="res_unionpay_ccb_bank_pay_money_4_second_step">
+				<rule type="elements_to_elements" value="input[name=PAYMENT]"></rule>
+				<rule type="elements_to_string" order="select_first_element_attr" value="value"></rule>
+			</parser>
+			<parser storageKey="res_unionpay_ccb_bank_pay_card_num_4_second_step">
+				<rule type="elements_to_elements" value="input[name=ACCOUNT]"></rule>
+				<rule type="elements_to_string" order="select_first_element_attr" value="value"></rule>
+			</parser>
+			<parser storageKey="res_unionpay_ccb_bank_pay_res">
+				<rule type="elements_to_string" order="all_text"></rule>
+			</parser>
+			<parser storageKey="res_ccb_pay_at_last_acct_no_for_get_sms_code">
+				<rule type="elements_to_elements" value="input[name=ACCOUNT]"></rule>
+				<rule type="elements_to_string" order="select_first_element_attr" value="value"></rule>
+			</parser>
+			<parser storageKey="res_ccb_pay_at_last_branch_id_for_get_sms_code">
+				<rule type="elements_to_elements" value="input[name=BRANCHID]"></rule>
+				<rule type="elements_to_string" order="select_first_element_attr" value="value"></rule>
+			</parser>
+			<parser storageKey="res_ccb_pay_at_last_ccb_sign_data_for_get_sms_code">
+				<rule type="elements_to_elements" value="input[name=CCBNETSIGNDATA]"></rule>
+				<rule type="elements_to_string" order="select_first_element_attr" value="value"></rule>
+			</parser>
+			<parser storageKey="res_unionpay_ccb_bank_param_pair_for_ccb_pay_at_last_3_step">
+				<rule type="elements_to_elements" value="input:not(input[name=SMSCODE],input[name=SUBMOB],input[name=SUBMOBILE],input[name=Smonth],input[name=Syear],input[id=CONFORMBUTTON],input[id=checkbox],input[name=BTNPay])"></rule>
+				<rule type="elements_to_two_dimensional_array" order="get_input_value_pair"></rule>
+			</parser>
+		</parserList>
+		<result>
+			<resultKey>action_ccb_pay_at_last_1_step</resultKey>
+            <nextActionList>
+                <next expResultKey="res_unionpay_ccb_bank_pay_money_4_second_step" expectResultType="max_length" expectResultValue="2" nextActionKey="action_prepare_get_ccb_verify_code"></next>
+            </nextActionList>
+		</result>
+	</action>
+	<action key="action_ccb_pay_at_last_2_step" isShowDialog="Y" resultType="elements" encoding="GB2312">
+		<paramList>
+			<param name="new_main" value="https://ibsbjstar.ccb.com.cn"></param>
+			<param name="uri" value="/app/B2CMainB1L5"></param>
+			<param name="CCB_IBSVersion" value="V5"></param>
+			<param name="SERVLET_NAME" value="B2CMainB1L5"></param>
+			
+			<param key="res_ccb_pay_at_last_acct_no_for_get_sms_code" name="ACCT_NO"></param>
+			<param key="res_ccb_pay_at_last_branch_id_for_get_sms_code" name="BRANCHID"></param>
+			<param key="res_ccb_pay_at_last_ccb_sign_data_for_get_sms_code" name="CCBNETSIGNDATA"></param>
+			<param value="NP3333" name="TXCODE"></param>
+			
+			<param name="SMSFLAG" value="1"></param>
+			<param key="key_unionpay_ccb_bank_pay_last_4_phone_num_4_second_step" name="SUBMOBILE"></param>
+			<param name="isAjaxRequest" value="true"></param>
+			<param name="Referer" value="https://ibsbjstar.ccb.com.cn/app/B2CMainB1L5?CCB_IBSVersion=V5&amp;SERVLET_NAME=B2CMainB1L5"></param>
+		</paramList>
+		<parserList>
+			<parser storageKey="res_unionpay_ccb_bank_pay_second_step_error_msg">
+				<rule type="elements_to_string" order="select_element_text" value="ajax"></rule>
+			</parser>
+		</parserList>
+		<result>
+			<resultKey>action_ccb_pay_at_last_2_step</resultKey>
+		</result>
+	</action>
+	<action key="action_ccb_pay_at_last_3_step" isShowDialog="Y" resultType="elements" encoding="GB2312">
+		<paramList>
+			<param name="new_main" value="https://ibsbjstar.ccb.com.cn"></param>
+			<param name="uri" value="/app/B2CMainB1L5"></param>
+			<param name="CCB_IBSVersion" value="V5"></param>
+			<param name="SERVLET_NAME" value="B2CMainB1L5"></param>
+			<param key="res_unionpay_ccb_bank_param_pair_for_ccb_pay_at_last_3_step"></param>
+			
+			<param key="key_unionpay_ccb_bank_pay_sms_code_4_third_step" name="SMSCODE"></param>
+			<param key="key_unionpay_ccb_bank_pay_last_4_phone_num_4_second_step" name="SUBMOB"></param>
+			<param key="key_unionpay_ccb_bank_pay_last_4_phone_num_4_second_step" name="SUBMOBILE"></param>
+			<param name="Smonth" value="mm"></param>
+			<param name="Syear" value="yy"></param>
+			<param name="Referer" value="https://ibsbjstar.ccb.com.cn/app/B2CMainB1L5?CCB_IBSVersion=V5&amp;SERVLET_NAME=B2CMainB1L5"></param>
+		</paramList>
+		<parserList>
+			<parser storageKey="res_unionpay_ccb_bank_pay_3_step_result_msg">
+				<rule type="elements_to_string" order="all_text"></rule>
+			</parser>
+		</parserList>
+		<result>
+			<resultKey>action_ccb_pay_at_last_3_step</resultKey>
+		</result>
+	</action>
+
+</actionList>
+
+<!-- 交通银行支付 -->
+<actionList key="list_action_unionpay_comm_pay">
+    <action key="action_init_bank_pay" isShowDialog="Y" resultType="elements" encoding="UTF-8">
+        <paramList>
+            <param name="new_main" value="https://epay.12306.cn"></param>
+            <param name="uri" value="/pay/webBusiness"></param>
+            <param name="method" value="queryMyOrderNotComplete"></param>
+            <param name="leftmenu" value="Y"></param>
+            <param key="res_pay_appid" name="appId"></param>
+            <param key="res_pay_interface_name" name="interfaceName"></param>
+            <param key="res_pay_interface_version" name="interfaceVersion"></param>
+            <param key="res_pay_mer_sign_msg" name="merSignMsg"></param>
+            <param key="res_pay_tran_data" name="tranData"></param>
+            <param key="res_pay_trans_type" name="transType"></param>
+            <param key="res_submit_success_channel_id" name="channelId"></param>
+            <param key="res_submit_success_order_time_out_date" name="orderTimeoutDate"></param>
+            <param name="bankId" value="00011000"></param>
+        </paramList>
+        <parserList>
+            <parser storageKey="res_init_bank_for_unionpay_comm_bank_request">
+                <rule type="elements_to_elements" value="input"></rule>
+                <rule type="elements_to_two_dimensional_array" order="get_input_value_pair"></rule>
+            </parser>
+            <parser storageKey="res_unionpay_comm_bank_init_bank_error_msg">
+                <rule type="elements_to_elements" value="div[class=err1]"></rule>
+                <rule type="elements_to_string" order="all_text"></rule>
+            </parser>
+        </parserList>
+        <result>
+            <resultKey>action_init_bank_pay</resultKey>
+            <nextActionKey>action_enter_unionpay_page</nextActionKey>
+        </result>
+    </action>
+    <action key="action_enter_unionpay_page" resultType="elements" encoding="UTF-8">
+        <paramList>
+            <param name="new_main" value="https://unionpaysecure.com"></param>
+            <param name="uri" value="/api/Pay.action"></param>
+            <param name="Referer" value="https://epay.12306.cn/pay/webBusiness"></param>
+            <param key="res_init_bank_for_unionpay_comm_bank_request"></param>
+        </paramList>
+        <parserList>
+            <parser storageKey="res_enter_unionpay_page_request_value_pair_for_next_step">
+                <rule type="elements_to_elements" value="form[id=defaultForm]"></rule>
+                <rule type="elements_to_string" order="select_first_element_attr" value="action"></rule>
+            </parser>
+            <parser storageKey="res_unionpay_comm_trans_number">
+                <rule type="elements_to_elements" value="form[id=defaultForm]"></rule>
+                <rule type="elements_to_string" order="select_first_element_attr" value="action"></rule>
+                <rule type="string_to_string" order="string_remove" value="/b2c/index.action?transNumber="></rule>
+            </parser>
+        </parserList>
+        <result>
+            <resultKey>action_enter_unionpay_page</resultKey>
+            <nextActionKey>action_enter_unionpay_page_step_2</nextActionKey>
+        </result>
+    </action>
+    <action key="action_enter_unionpay_page_step_2" resultType="elements" encoding="UTF-8">
+        <paramList>
+            <param name="new_main" value="https://unionpaysecure.com"></param>
+            <param name="uri" key="res_enter_unionpay_page_request_value_pair_for_next_step"></param>
+            <param name="Referer" value="https://unionpaysecure.com/api/Pay.action"></param>
+        </paramList>
+        <parserList>
+            <parser storageKey="key_unionpay_comm_init_comm_Referer_1">
+                <rule type="string_to_string" order="string_create_string" value="https://unionpaysecure.com/beta/csinit.action?transNumber="></rule>
+                <rule type="string_to_string" order="string_add_from_key" value="res_unionpay_comm_trans_number"></rule>
+            </parser>
+            <parser storageKey="key_unionpay_comm_init_comm_Referer_2">
+                <rule type="string_to_string" order="string_create_string" value="https://unionpaysecure.com/beta/csPay.action?transNumber="></rule>
+                <rule type="string_to_string" order="string_add_from_key" value="res_unionpay_comm_trans_number"></rule>
+            </parser>
+            <parser storageKey="res_unionpay_comm_init_comm_url_for_after_select_comm_bank_page_1">
+                <rule type="string_to_string" order="string_create_string" value="/beta/csPay.action?transNumber="></rule>
+                <rule type="string_to_string" order="string_add_from_key" value="res_unionpay_comm_trans_number"></rule>
+            </parser>
+        </parserList>
+        <result>
+            <resultKey>action_enter_unionpay_page_step_2</resultKey>
+            <nextActionKey>action_after_select_comm_bank_page_1</nextActionKey>
+        </result>
+    </action>
+    <action key="action_after_select_comm_bank_page_1" resultType="elements" encoding="UTF-8">
+        <paramList>
+            <param name="new_main" value="https://unionpaysecure.com"></param>
+            <param key="res_unionpay_comm_init_comm_url_for_after_select_comm_bank_page_1" name="uri"></param>
+            <param key="key_unionpay_comm_init_comm_Referer_1" name="Referer"></param>
+            <param name="bankCode" value="05"></param>
+            <param name="btnPay" value="到网上银行支付"></param>
+            <param name="cardNumber" value=""></param>
+            <param name="errorCount" value="0"></param>
+            <param name="fromType" value=""></param>
+        </paramList>
+        <parserList>
+            <parser storageKey="res_after_select_comm_bank_page_1_param_pair_for_comm_request">
+                <rule type="elements_to_elements" value="input"></rule>
+                <rule type="elements_to_two_dimensional_array" order="get_input_value_pair"></rule>
+            </parser>
+        </parserList>
+        <result>
+            <resultKey>action_after_select_comm_bank_page_1</resultKey>
+            <nextActionKey>action_after_select_comm_bank_page_2</nextActionKey>
+        </result>
+    </action>
+    <action key="action_after_select_comm_bank_page_2" resultType="elements" encoding="UTF-8">
+        <paramList>
+            <param name="new_main" value="https://unionpaysecure.com"></param>
+            <param name="uri" value="/bank/bank"></param>
+            <param key="res_after_select_comm_bank_page_1_param_pair_for_comm_request"></param>
+            <param key="key_unionpay_comm_init_comm_Referer_2" name="Referer"></param>
+        </paramList>
+        <parserList>
+            <parser storageKey="res_after_select_comm_bank_page_2_param_pair_for_comm_request">
+                <rule type="elements_to_elements" value="input"></rule>
+                <rule type="elements_to_two_dimensional_array" order="get_input_value_pair"></rule>
+            </parser>
+        </parserList>
+        <result>
+            <resultKey>action_after_select_comm_bank_page_2</resultKey>
+            <nextActionKey>action_request_comm_net_first_time</nextActionKey>
+        </result>
+    </action>
+    <action key="action_request_comm_net_first_time" resultType="elements" encoding="GBK">
+        <paramList>
+            <param name="new_main" value="https://pay.95559.com.cn"></param>
+            <param name="uri" value="/netpay/MerPayB2C"></param>
+            <param name="Referer" value="https://unionpaysecure.com/bank/bank"></param>
+            <param key="res_after_select_comm_bank_page_2_param_pair_for_comm_request"></param>
+        </paramList>
+        <parserList>
+            <parser storageKey="res_request_comm_net_first_time_base_order_info">
+                <rule type="elements_to_elements" value="div[class=nr_dd lanse]"></rule>
+                <rule type="elements_to_string" order="all_text"></rule>
+                <rule type="string_to_string" order="string_remove_blank_and_add_x" value="@"></rule>
+                <rule type="string_to_array_string" value="@"></rule>
+            </parser>
+            <parser storageKey="res_request_comm_net_first_time_param_pair_for_comm_request">
+                <rule type="elements_to_elements" value="input[type=hidden]"></rule>
+                <rule type="elements_to_two_dimensional_array" order="get_input_value_pair"></rule>
+            </parser>
+            <parser storageKey="res_request_comm_net_first_time_error_message">
+                <rule type="elements_to_elements" value="div[class=nr_dd lanse]"></rule>
+                <rule type="elements_to_string" order="all_text"></rule>
+            </parser>
+            
+        </parserList>
+        <result>
+            <resultKey>action_request_comm_net_first_time</resultKey>
+        </result>
+    </action>
+    <action key="action_request_comm_submit_card_no" isShowDialog="Y" resultType="elements" encoding="GBK">
+        <paramList>
+            <param name="new_main" value="https://pay.95559.com.cn"></param>
+            <param name="uri" value="/netpay/Trans"></param>
+            <param name="cardNo" key="key_unionpay_comm_step_1_card_no"></param>
+            <param key="res_request_comm_net_first_time_param_pair_for_comm_request"></param>
+            <param name="Referer" value="https://pay.95559.com.cn/netpay/MerPayB2C"></param>
+        </paramList>
+        <parserList>
+            <parser storageKey="res_request_comm_submit_card_no_all_info_for_judge">
+                <rule type="elements_to_elements" value="form[name=mainForm],form[name=form]"></rule>
+                <rule type="elements_to_string" order="all_text"></rule>
+            </parser>
+            <parser storageKey="res_request_comm_submit_card_no_param_pair_for_comm_request">
+                <rule type="elements_to_elements" value="input[type=hidden]:not(input[name=certType],input[name=certNo],input[name=cardExpDate],input[name=cardCVV],input[name=welcomeMsg],input[name=sms],input[name=tranPass],input[name=cardExpMM],input[name=cardExpYY])"></rule>
+                <rule type="elements_to_two_dimensional_array" order="get_input_value_pair"></rule>
+            </parser>
+            <parser storageKey="res_request_comm_submit_card_no_get_url_for_send_sms">
+                <rule type="elements_to_string" order="select_element_data_all" value="script"></rule>
+                <rule type="string_to_string" order="string_regex" value=".*var requiredHtmlParams.*"></rule>
+                <rule type="string_to_string" order="string_remove" value="var requiredHtmlParams = '"></rule>
+                <rule type="string_to_string" order="string_remove" value="';"></rule>
+                <rule type="string_to_string" order="string_remove_blank_and_add_x" value=""></rule>
+            </parser>
+            <parser storageKey="res_request_comm_submit_card_no_error_message">
+                <rule type="elements_to_elements" value="div[class=erro_area]"></rule>
+                <rule type="elements_to_string" order="all_text"></rule>
+            </parser>
+            <parser storageKey="res_request_comm_submit_card_no_usefull_info_for_show_first_net_pay">
+                <rule type="elements_to_elements" value="div[class=add_nr6]"></rule>
+                <rule type="elements_to_array" order="get_text"></rule>
+            </parser>
+            <parser storageKey="res_request_comm_submit_card_no_usefull_info_for_show_common_net_pay">
+                <rule type="elements_to_elements" value="div[class=add_nr22]"></rule>
+                <rule type="elements_to_array" order="get_text"></rule>
+            </parser>
+            <parser storageKey="res_request_comm_submit_card_no_key_board_img_url_for_show">
+                <rule type="elements_to_elements" value="div[id=softkeyboard] a[background=/netpay/image/zh_CN/j_anniu.jpg] img"></rule>
+                <rule type="elements_to_array" order="get_attr" value="src"></rule>
+                <rule type="array_to_array" order="string_add_at_head" value="https://pay.95559.com.cn"></rule>
+            </parser>
+        </parserList>
+        <result>
+            <resultKey>action_request_comm_submit_card_no</resultKey>
+        </result>
+    </action>
+    <action key="action_request_comm_get_sms_code" isShowDialog="Y" resultType="elements" encoding="UTF-8">
+        <paramList>
+            <param name="new_main" value="https://pay.95559.com.cn"></param>
+            <param name="uri" key="res_request_comm_submit_card_no_get_url_for_send_sms"></param>
+            <param name="Referer" value="https://pay.95559.com.cn/netpay/Trans"></param>
+        </paramList>
+        <parserList>
+            <parser storageKey="res_request_comm_get_sms_code_result">
+                <rule type="elements_to_elements" value="errMsg"></rule>
+                <rule type="elements_to_string" order="all_text"></rule>
+            </parser>
+        </parserList>
+        <result>
+            <resultKey>action_request_comm_get_sms_code</resultKey>
+        </result>
+    </action>
+    <action key="action_request_comm_submit_first_net_pay" isShowDialog="Y" resultType="elements" encoding="GBK">
+        <paramList>
+            <param name="new_main" value="https://pay.95559.com.cn"></param>
+            <param name="uri" value="/netpay/Trans"></param>
+            <param key="res_request_comm_submit_card_no_param_pair_for_comm_request"></param>
+            <param key="key_request_comm_submit_first_net_pay_cert_no" name="certNo"></param>
+            <param key="key_request_comm_submit_first_net_pay_card_date" name="cardExpDate"></param>
+            <param key="key_request_comm_submit_first_net_pay_cvv2" name="cardCVV"></param>
+            <param key="key_request_comm_submit_first_net_pay_safe_message" name="welcomeMsg"></param>
+            <param key="key_request_comm_submit_first_net_pay_sms_code" name="sms"></param>
+            <param key="key_request_comm_submit_first_net_pay_password" name="tranPass"></param>
+            <param name="cardAlias" value=""></param>
+            <param name="cardAliasFlag" value="0"></param>
+            <param name="dayQuota" value="5000"></param>
+            <param name="certType" value="15"></param>
+            <param name="isAgreeProt" value=""></param>
+            <param name="Referer" value="https://pay.95559.com.cn/netpay/Trans"></param>
+        </paramList>
+        <parserList>
+            <parser storageKey="res_request_comm_submit_first_net_pay_error_message_when_gbk_back">
+                <rule type="elements_to_elements" value="span[class=erro_area]"></rule>
+                <rule type="elements_to_string" order="all_text"></rule>
+            </parser>
+            <parser storageKey="res_request_comm_submit_first_net_pay_error_message_when_gbk_back_more_detail">
+                <rule type="elements_to_elements" value="div[class=nr_xx]:has(div[class=add_nr2])"></rule>
+                <rule type="elements_to_string" order="all_text"></rule>
+            </parser>
+            <parser storageKey="res_request_comm_submit_first_net_pay_success">
+                <rule type="elements_to_elements" value="div[class=add_nr9]"></rule>
+                <rule type="elements_to_string" order="all_text"></rule>
+            </parser>
+        </parserList>
+        <result>
+            <resultKey>action_request_comm_submit_first_net_pay</resultKey>
+        </result>
+    </action>
+    <action key="action_request_comm_submit_common_net_pay" isShowDialog="Y" resultType="elements" encoding="GBK">
+        <paramList>
+            <param name="new_main" value="https://pay.95559.com.cn"></param>
+            <param name="uri" value="/netpay/Trans"></param>
+            <param key="res_request_comm_submit_card_no_param_pair_for_comm_request"></param>
+            
+            <param key="key_request_comm_submit_first_net_pay_card_date" name="cardExpDate"></param>
+            <param key="key_request_comm_submit_first_net_pay_sms_code" name="sms"></param>
+            <param key="key_request_comm_submit_first_net_pay_password" name="tranPass"></param>
+
+            <param name="Referer" value="https://pay.95559.com.cn/netpay/Trans"></param>
+        </paramList>
+        <parserList>
+            <parser storageKey="res_request_comm_submit_common_net_pay_error_message_when_gbk_back">
+                <rule type="elements_to_elements" value="div[class=erro_area]"></rule>
+                <rule type="elements_to_string" order="all_text"></rule>
+            </parser>
+            <parser storageKey="res_request_comm_submit_common_net_pay_error_message_when_gbk_back_more_detail">
+                <rule type="elements_to_elements" value="div[class=nr_xx]:has(div[class=add_nr2])"></rule>
+                <rule type="elements_to_string" order="all_text"></rule>
+            </parser>
+            <parser storageKey="res_request_comm_submit_common_net_pay_success">
+                <rule type="elements_to_string" order="all_text"></rule>
+            </parser>
+        </parserList>
+        <result>
+            <resultKey>action_request_comm_submit_common_net_pay</resultKey>
+        </result>
+    </action>
+</actionList>
+
+<!-- 浦发+其它银行支付 -->
+<actionList key="list_action_unionpay_sdp_pay">
+    <action key="action_init_bank_pay" isShowDialog="N" resultType="elements" encoding="UTF-8">
+        <paramList>
+            <param name="new_main" value="https://epay.12306.cn"></param>
+            <param name="uri" value="/pay/webBusiness"></param>
+            <param name="method" value="queryMyOrderNotComplete"></param>
+            <param name="leftmenu" value="Y"></param>
+            <param key="res_pay_appid" name="appId"></param>
+            <param key="res_pay_interface_name" name="interfaceName"></param>
+            <param key="res_pay_interface_version" name="interfaceVersion"></param>
+            <param key="res_pay_mer_sign_msg" name="merSignMsg"></param>
+            <param key="res_pay_tran_data" name="tranData"></param>
+            <param key="res_pay_trans_type" name="transType"></param>
+            <param key="res_submit_success_channel_id" name="channelId"></param>
+            <param key="res_submit_success_order_time_out_date" name="orderTimeoutDate"></param>
+            <param name="bankId" value="00011000"></param>
+        </paramList>
+        <parserList>
+            <parser storageKey="res_init_bank_for_unionpay_spd_bank_request">
+                <rule type="elements_to_elements" value="input"></rule>
+                <rule type="elements_to_two_dimensional_array" order="get_input_value_pair"></rule>
+            </parser>
+            <parser storageKey="res_unionpay_spd_bank_init_bank_error_msg">
+                <rule type="elements_to_elements" value="div[class=err1]"></rule>
+                <rule type="elements_to_string" order="all_text"></rule>
+            </parser>
+        </parserList>
+        <result>
+            <resultKey>action_init_bank_pay</resultKey>
+            <nextActionKey>action_enter_unionpay_page</nextActionKey>
+        </result>
+    </action>
+    <action key="action_enter_unionpay_page" resultType="elements" encoding="UTF-8">
+        <paramList>
+            <param name="new_main" value="https://unionpaysecure.com"></param>
+            <param name="uri" value="/api/Pay.action"></param>
+            <param name="Referer" value="https://epay.12306.cn/pay/webBusiness"></param>
+            <param key="res_init_bank_for_unionpay_spd_bank_request"></param>
+        </paramList>
+        <parserList>
+            <parser storageKey="res_enter_unionpay_page_request_value_pair_for_next_step">
+                <rule type="elements_to_elements" value="form[id=defaultForm]"></rule>
+                <rule type="elements_to_string" order="select_first_element_attr" value="action"></rule>
+            </parser>
+            <parser storageKey="res_unionpay_spd_trans_number">
+                <rule type="elements_to_elements" value="form[id=defaultForm]"></rule>
+                <rule type="elements_to_string" order="select_first_element_attr" value="action"></rule>
+                <rule type="string_to_string" order="string_remove" value="/b2c/index.action?transNumber="></rule>
+            </parser>
+        </parserList>
+        <result>
+            <resultKey>action_enter_unionpay_page</resultKey>
+            <nextActionKey>action_enter_unionpay_page_step_2</nextActionKey>
+        </result>
+    </action>
+    <action key="action_enter_unionpay_page_step_2" resultType="elements" encoding="UTF-8">
+        <paramList>
+            <param name="new_main" value="https://unionpaysecure.com"></param>
+            <param name="uri" key="res_enter_unionpay_page_request_value_pair_for_next_step"></param>
+            <param name="Referer" value="https://unionpaysecure.com/api/Pay.action"></param>
+        </paramList>
+        <parserList>
+            <parser storageKey="key_unionpay_spd_init_spd_Referer_1">
+                <rule type="string_to_string" order="string_create_string" value="https://unionpaysecure.com/beta/csinit.action?transNumber="></rule>
+                <rule type="string_to_string" order="string_add_from_key" value="res_unionpay_spd_trans_number"></rule>
+            </parser>
+            <parser storageKey="key_unionpay_spd_init_spd_Referer_2">
+                <rule type="string_to_string" order="string_create_string" value="https://unionpaysecure.com/beta/csPay.action?transNumber="></rule>
+                <rule type="string_to_string" order="string_add_from_key" value="res_unionpay_spd_trans_number"></rule>
+            </parser>
+            <parser storageKey="res_unionpay_spd_init_spd_url_for_after_select_spd_bank_page_1">
+                <rule type="string_to_string" order="string_create_string" value="/beta/csPay.action?transNumber="></rule>
+                <rule type="string_to_string" order="string_add_from_key" value="res_unionpay_spd_trans_number"></rule>
+            </parser>
+        </parserList>
+        <result>
+            <resultKey>action_enter_unionpay_page_step_2</resultKey>
+            <nextActionKey>action_after_select_spd_bank_page_1</nextActionKey>
+        </result>
+    </action>
+    <action key="action_after_select_spd_bank_page_1" resultType="elements" encoding="UTF-8">
+        <paramList>
+            <param name="new_main" value="https://unionpaysecure.com"></param>
+            <param key="res_unionpay_spd_init_spd_url_for_after_select_spd_bank_page_1" name="uri"></param>
+            <param key="key_unionpay_spd_init_spd_Referer_1" name="Referer"></param>
+            <param name="bankCode" key="key_bank_pay_spd_ceb_web_pay_bank_code"></param>
+            <param name="btnPay" value="到网上银行支付"></param>
+            <param name="cardNumber" value=""></param>
+            <param name="errorCount" value="0"></param>
+            <param name="fromType" value=""></param>
+        </paramList>
+        <parserList>
+            <parser storageKey="res_after_select_spd_bank_page_1_param_pair_for_spd_request">
+                <rule type="elements_to_elements" value="input"></rule>
+                <rule type="elements_to_two_dimensional_array" order="get_input_value_pair"></rule>
+            </parser>
+        </parserList>
+        <result>
+            <resultKey>action_after_select_spd_bank_page_1</resultKey>
+            <nextActionList>
+                <next expResultKey="key_bank_pay_spd_ceb_web_pay_bank_code" expectResultType="equal" expectResultValue="12" nextActionKey="action_after_select_spd_bank_page_2_for_utf8"></next>
+                <next expResultKey="key_bank_pay_spd_ceb_web_pay_bank_code" expectResultType="equal" expectResultValue="10" nextActionKey="action_after_select_spd_bank_page_2_for_gbk"></next>
+            </nextActionList>
+        </result>
+    </action>
+    <action key="action_after_select_spd_bank_page_2_for_utf8" resultType="elements" encoding="UTF-8">
+        <paramList>
+            <param name="new_main" value="https://unionpaysecure.com"></param>
+            <param name="uri" value="/bank/bank"></param>
+            <param key="res_after_select_spd_bank_page_1_param_pair_for_spd_request"></param>
+            <param key="key_unionpay_spd_init_spd_Referer_2" name="Referer"></param>
+        </paramList>
+        <parserList>
+            <parser storageKey="res_after_select_spd_bank_page_2_param_pair_for_spd_request">
+                <rule type="elements_to_elements" value="input"></rule>
+                <rule type="elements_to_two_dimensional_array" order="get_input_value_pair"></rule>
+            </parser>
+        </parserList>
+        <result>
+            <resultKey>action_after_select_spd_bank_page_2</resultKey>
+        </result>
+    </action>
+    <action key="action_after_select_spd_bank_page_2_for_gbk" resultType="elements" encoding="GBK">
+        <paramList>
+            <param name="new_main" value="https://unionpaysecure.com"></param>
+            <param name="uri" value="/bank/bank"></param>
+            <param key="res_after_select_spd_bank_page_1_param_pair_for_spd_request"></param>
+            <param key="key_unionpay_spd_init_spd_Referer_2" name="Referer"></param>
+        </paramList>
+        <parserList>
+            <parser storageKey="res_after_select_spd_bank_page_2_param_pair_for_spd_request">
+                <rule type="elements_to_elements" value="input"></rule>
+                <rule type="elements_to_two_dimensional_array" order="get_input_value_pair"></rule>
+            </parser>
+        </parserList>
+        <result>
+            <resultKey>action_after_select_spd_bank_page_2</resultKey>
+        </result>
+    </action>
+    <action key="action_request_spd_net_first_time" resultType="elements" encoding="GBK">
+        <paramList>
+            <param name="new_main" value="https://ebank.spdb.com.cn"></param>
+            <param name="uri" value="/payment/main"></param>
+            <param name="Referer" value="https://unionpaysecure.com/bank/bank"></param>
+            <param key="res_after_select_spd_bank_page_2_param_pair_for_spd_request"></param>
+        </paramList>
+        <parserList>
+            <parser storageKey="res_request_spd_net_first_time_param_pair_for_spd_request">
+                <rule type="elements_to_elements" value="form[name=form3] input[type=hidden]"></rule>
+                <rule type="elements_to_two_dimensional_array" order="get_input_value_pair"></rule>
+            </parser>
+        </parserList>
+        <result>
+            <resultKey>action_request_spd_net_first_time</resultKey>
+        </result>
+    </action>
+    <action key="action_request_spd_net_smaller_page" resultType="elements" encoding="GBK">
+        <paramList>
+            <param name="new_main" value="https://ebank.spdb.com.cn"></param>
+            <param name="uri" value="/payment/paygate"></param>
+            <param key="res_request_spd_net_first_time_param_pair_for_spd_request"></param>
+        </paramList>
+        <parserList>
+            <parser storageKey="res_request_spd_net_smaller_page_all_info">
+                <rule type="elements_to_string" order="all_text"></rule>
+            </parser>
+        </parserList>
+        <result>
+            <resultKey>action_request_spd_net_smaller_page</resultKey>
+        </result>
+    </action>
+    <action key="action_request_ceb_net_first_time" resultType="elements" encoding="GBK">
+        <paramList>
+            <param name="new_main" value="https://www.cebbank.com"></param>
+            <param name="uri" value="/per/preEpayLogin.do"></param>
+            <param key="res_after_select_spd_bank_page_2_param_pair_for_spd_request"></param>
+            <param name="Referer" value="https://unionpaysecure.com/bank/bank"></param>
+        </paramList>
+        <parserList>
+            <parser storageKey="res_request_spd_net_smaller_page_all_info">
+                <rule type="elements_to_string" order="all_text"></rule>
+            </parser>
+        </parserList>
+        <result>
+            <resultKey>action_request_spd_net_smaller_page</resultKey>
+        </result>
+    </action>
+    <action key="action_init_alipay_pay" isShowDialog="N" resultType="elements" encoding="UTF-8">
+        <paramList>
+            <param name="new_main" value="https://epay.12306.cn"></param>
+            <param name="uri" value="/pay/webBusiness"></param>
+            <param key="res_pay_appid" name="appId"></param>
+            <param key="res_pay_interface_name" name="interfaceName"></param>
+            <param key="res_pay_interface_version" name="interfaceVersion"></param>
+            <param key="res_pay_mer_sign_msg" name="merSignMsg"></param>
+            <param key="res_pay_tran_data" name="tranData"></param>
+            <param key="res_pay_trans_type" name="transType"></param>
+            <param key="res_submit_success_channel_id" name="channelId"></param>
+            <param key="res_submit_success_order_time_out_date" name="orderTimeoutDate"></param>
+            <param name="bankId" value="33000010"></param>
+        </paramList>
+        <parserList>
+            <parser storageKey="res_init_bank_for_unionpay_alipay_request">
+                <rule type="elements_to_elements" value="input"></rule>
+                <rule type="elements_to_two_dimensional_array" order="get_input_value_pair"></rule>
+            </parser>
+            <parser storageKey="res_unionpay_alipay_init_bank_error_msg">
+                <rule type="elements_to_elements" value="div[class=err1]"></rule>
+                <rule type="elements_to_string" order="all_text"></rule>
+            </parser>
+        </parserList>
+        <result>
+            <resultKey>action_init_alipay_pay</resultKey>
+        </result>
+    </action>
+</actionList>
+
+<!-- 注册界面   register -->
+<actionList key="list_action_register">
+	<action key="action_init_register" isShowDialog="Y" resultType="elements" encoding="UTF-8">
+		<paramList>
+			<param name="uri" value="/otsweb/registAction.do"></param>
+			<param name="method" value="init"></param>
+		</paramList>
+		<parserList>
+			<parser storageKey="res_register_card_type">
+				<rule type="elements_to_elements" value="select[name=loginUser.id_type_code] option"></rule>
+				<rule type="elements_to_two_dimensional_array" order="get_attr_text" value="value"></rule>
+			</parser>
+			<parser storageKey="res_register_school_provinces">
+				<rule type="elements_to_elements" value="select[name=studentInfo.province_code] option"></rule>
+				<rule type="elements_to_two_dimensional_array" order="get_attr_text" value="value"></rule>
+			</parser>
+			<parser storageKey="res_register_token">
+				<rule type="elements_to_elements" value="input[name=org.apache.struts.taglib.html.TOKEN]"></rule>
+				<rule type="elements_to_string" order="select_first_element_attr" value="value"></rule>
+			</parser>
+			<parser storageKey="res_register_gender_type">
+				<rule type="elements_to_elements" value="input[name=user.sex_code]"></rule>
+				<rule type="elements_to_array" order="get_attr" value="value"></rule>
+			</parser>
+		</parserList>
+		<result>
+			<resultKey>action_init_register</resultKey>
+			<nextActionKey>action_get_passenger_type</nextActionKey>
+		</result>
+	</action>
+	<action key="action_get_passenger_type" resultType="stream" encoding="UTF-8">
+		<paramList>
+			<param name="uri" value="/otsweb/js/common/options.js"></param>
+			<param name="version" value="2.8"></param>
+		</paramList>
+		<parserList>
+			<parser storageKey="res_register_passenger_type">
+				<rule type="stream_to_string"></rule>
+				<rule type="string_to_string" order="string_regex" value="var passengerType = .*"></rule>
+				<rule type="string_to_string" order="string_remove" value="var passengerType = "></rule>
+				<rule type="string_to_string" order="string_remove" value=";"></rule>
+				<rule type="string_to_json_array"></rule>
+				<rule type="json_array_to_two_dimensional_array"></rule>
+			</parser>
+		</parserList>
+		<result>
+			<resultKey>action_get_passenger_type</resultKey>
+			<nextActionKey>action_register_verify_code</nextActionKey>
+		</result>
+	</action>
+	<action key="action_register_verify_code" resultType="stream" encoding="UTF-8">
+		<paramList>
+			<param name="uri" value="/otsweb/passCodeNewAction.do"></param>
+			<param name="module" value="regist"></param>
+			<param name="rand" value="rrand"></param>
+		</paramList>
+		<parserList>
+			<parser storageKey="res_register_verify_code">
+				<rule type="stream_to_stream"></rule>
+			</parser>
+		</parserList>
+		<result>
+			<resultKey>action_register_verify_code</resultKey>
+		</result>
+	</action>
+	<action key="action_get_school_by_province_code" isShowDialog="Y" resultType="stream" encoding="UTF-8">
+		<paramList>
+			<param name="uri" value="/otsweb/registAction.do"></param>
+			<param name="method" value="getSchoolName"></param>
+			<param key="key_register_input_province_code" name="provinceCode"></param>
+		</paramList>
+		<parserList>
+			<parser storageKey="res_register_school_list">
+				<rule type="stream_to_string"></rule>
+				<rule type="string_to_json_array"></rule>
+				<rule type="json_array_to_two_dimensional_array"></rule>
+			</parser>
+		</parserList>
+		<result>
+			<resultKey>action_get_school_by_province_code</resultKey>
+		</result>
+	</action>
+	<action key="action_get_all_city" resultType="stream" encoding="UTF-8">
+		<paramList>
+			<param name="uri" value="/otsweb/registAction.do"></param>
+			<param name="method" value="getAllCity"></param>
+			<param key="key_register_input_station_pinyin" name="station_name"></param>
+		</paramList>
+		<parserList>
+			<parser storageKey="res_register_get_all_city">
+				<rule type="stream_to_string"></rule>
+				<rule type="string_to_json_array"></rule>
+				<rule type="json_array_to_two_dimensional_array"></rule>
+			</parser>
+		</parserList>
+		<result>
+			<resultKey>action_get_all_city</resultKey>
+		</result>
+	</action>
+	<action key="action_check_email" isShowDialog="Y" resultType="stream" encoding="UTF-8">
+		<paramList>
+			<param name="uri" value="/otsweb/registAction.do"></param>
+			<param name="method" value="ansycheckEmail"></param>
+			<param key="key_register_input_email" name="user.email"></param>
+		</paramList>
+		<parserList>
+			<parser storageKey="res_register_check_email">
+				<rule type="stream_to_string"></rule>
+			</parser>
+		</parserList>
+		<result>
+			<resultKey>action_check_email</resultKey>
+			<nextActionKey>action_register_submit</nextActionKey>
+		</result>
+	</action>
+	<action key="action_register_submit" isShowDialog="Y" resultType="elements" encoding="UTF-8">
+		<paramList>
+			<param name="uri" value="/otsweb/registAction.do"></param>
+			<param name="method" value="regist"></param>
+			
+			<param key="key_register_input_voice_password_confirm" name="confirmIvr_pwd"></param>
+			<param key="key_register_input_password_confirm" name="confirmPassWord"></param>
+			<param key="key_register_input_card_no" name="loginUser.id_no"></param>
+			<param key="key_register_input_card_type" name="loginUser.id_type_code"></param>
+			<param key="key_register_input_user_real_name" name="loginUser.name"></param>
+			<param key="key_register_input_user_login_name" name="loginUser.user_name"></param>
+			<param key="res_register_token" name="org.apache.struts.taglib.html.TOKEN"></param>
+			<param key="key_register_input_passenger_type" name="passenger_type"></param>
+			<param key="key_register_input_rand_code" name="randCode"></param>
+			<param key="key_register_input_student_department" name="studentInfo.department"></param>
+			<param key="key_register_input_student_enter_year" name="studentInfo.enter_year"></param>
+			<param key="key_register_input_preference_card_no" name="studentInfo.preference_card_no"></param>
+			<param key="key_register_input_preference_from_station_code" name="studentInfo.preference_from_station_code"></param>
+			<param key="key_register_input_preference_from_station_name" name="studentInfo.preference_from_station_name"></param>
+			<param key="key_register_input_preference_to_station_code" name="studentInfo.preference_to_station_code"></param>
+			<param key="key_register_input_preference_to_station_name" name="studentInfo.preference_to_station_name"></param>
+			<param key="key_register_input_province_code" name="studentInfo.province_code"></param>
+			<param key="key_register_input_school_class" name="studentInfo.school_class"></param>
+			<param key="key_register_input_school_code" name="studentInfo.school_code"></param>
+			<param key="key_register_input_school_name" name="studentInfo.school_name"></param>
+			<param key="key_register_input_school_system" name="studentInfo.school_system"></param>
+			<param key="key_register_input_student_no" name="studentInfo.student_no"></param>
+			<param key="key_register_input_voice_password" name="user.IVR_passwd"></param>
+			<param key="key_register_input_born_date" name="user.born_date"></param>
+			<param name="user.country_code" value="CN"></param>
+			<param key="key_register_input_email" name="user.email"></param>
+			<param key="key_register_input_mobile" name="user.mobile_no"></param>
+			<param key="key_register_input_password" name="user.password"></param>
+			<param key="key_register_input_sex_code" name="user.sex_code"></param>
+		</paramList>
+		<parserList>
+			<parser storageKey="res_subitmit_result_error">
+				<rule type="elements_to_string" order="select_element_data" value="script[language=javascript]"></rule>
+				<rule type="string_to_string" order="string_regex" value=".*var message = &quot;.*"></rule>
+				<rule type="string_to_string" order="string_remove" value="var message = &quot;"></rule>
+				<rule type="string_to_string" order="string_remove" value="&quot;;"></rule>
+			</parser>
+			<parser storageKey="res_subitmit_result_page_content">
+				<rule type="elements_to_string" order="all_text"></rule>
+			</parser>
+		</parserList>
+		<result>
+			<resultKey>action_register_submit</resultKey>
+            <nextActionList>
+                <next expResultKey="res_subitmit_result_error" expectResultType="min_length" expectResultValue="1" nextActionKey="action_refresh_register_token"></next>
+            </nextActionList>
+		</result>
+	</action>
+	<action key="action_refresh_register_token" resultType="elements" encoding="UTF-8">
+		<paramList>
+			<param name="uri" value="/otsweb/registAction.do"></param>
+			<param name="method" value="init"></param>
+		</paramList>
+		<parserList>
+			<parser storageKey="res_register_token">
+				<rule type="elements_to_elements" value="input[name=org.apache.struts.taglib.html.TOKEN]"></rule>
+				<rule type="elements_to_string" order="select_first_element_attr" value="value"></rule>
+			</parser>
+		</parserList>
+		<result>
+			<resultKey>action_refresh_register_token</resultKey>
+			<nextActionKey>action_register_refresh_verify_code</nextActionKey>
+		</result>
+	</action>
+	<action key="action_register_refresh_verify_code" resultType="stream" encoding="UTF-8">
+		<paramList>
+			<param name="uri" value="/otsweb/passCodeNewAction.do"></param>
+			<param name="module" value="regist"></param>
+			<param name="rand" value="rrand"></param>
+		</paramList>
+		<parserList>
+			<parser storageKey="res_register_verify_code">
+				<rule type="stream_to_stream"></rule>
+			</parser>
+		</parserList>
+		<result>
+			<resultKey>action_register_refresh_verify_code</resultKey>
+		</result>
+	</action>
+</actionList>
+
+<actionList key="list_action_search_page_get_uncomplete_orders">
+	<action key="action_search_uncomplete_order_list_value" isShowDialog="N" isDismissDialog="N" resultType="elements" encoding="UTF-8">
+		<paramList>
+			<param name="uri" value="/otsweb/order/myOrderAction.do"></param>
+			<param name="method" value="queryMyOrderNotComplete"></param>
+			<param key="leftmenu" name="Y"></param>
+			<param name="Referer" value="https://dynamic.12306.cn/otsweb/order/myOrderAction.do?method=queryMyOrderNotComplete&amp;leftmenu=Y"></param>
+		</paramList>
+		<parserList>
+            <parser storageKey="res_search_order_sequence_no">
+                <rule type="elements_to_elements" value="button[class=long_button_u]"></rule>
+                <rule type="elements_to_string" order="select_first_element_attr" value="onclick"></rule>
+                <rule type="string_to_string" order="string_remove" value="javascript:epayOrder('"></rule>
+                <rule type="string_to_string" order="string_remove" value="','epay')"></rule>
+                <rule type="string_to_string" order="string_remove" value="cancelResignOrder('"></rule>
+                <rule type="string_to_string" order="string_remove" value="');"></rule>
+            </parser>
+		</parserList>
+		<result>
+			<resultKey>action_search_uncomplete_order_list_value</resultKey>
+		</result>
+	</action>
+    <action key="action_get_account_mobile" isShowDialog="N" resultType="elements" encoding="UTF-8">
+        <paramList>
+            <param name="uri" value="/otn/modifyUser/initQueryUserInfo"></param>
+            <param name="Referer" value="https://kyfw.12306.cn/otn/payOrder/init"></param>
+        </paramList>
+        <parserList>
+            <parser storageKey="res_account_user_info">
+                <rule type="elements_to_elements" value="input[name=userDTO.loginUserDTO.agent_contact]"></rule>
+                <rule type="elements_to_string" order="select_first_element_attr" value="value"></rule>
+            </parser>
+        </parserList>
+        <result>
+            <resultKey>action_get_account_mobile</resultKey>
+        </result>
+    </action>
+</actionList>
+
+<actionList key="list_action_notice_service">
+    <action key="action_notice_service_get_ticket_left" encoding="UTF-8" isPost="N" resultType="string">
+        <paramList>
+            <param name="uri" value="/otn/leftTicket/query"></param>
+            <param key="key_notice_service_ticket_list_train_date" name="leftTicketDTO.train_date"></param>
+            <param key="key_notice_service_ticket_list_from_station_telecode" name="leftTicketDTO.from_station"></param>
+            <param key="key_notice_service_ticket_list_to_station_telecode" name="leftTicketDTO.to_station"></param>
+            <param name="purpose_codes" value="ADULT"></param>
+            <param name="Referer" value="https://kyfw.12306.cn/otn/leftTicket/init"></param>
+        </paramList>
+        <parserList>
+            <parser storageKey="res_notice_service_get_ticket_left_all_json_string">
+            </parser>
+        </parserList>
+        <result>
+            <resultKey>action_notice_service_get_ticket_left</resultKey>
+        </result>
+    </action>
+</actionList>
+
+<!-- 
+<actionList key="">
+	<action key=""  resultType="elements" encoding="UTF-8">
+		<paramList>
+			<param name="uri" value=""></param>
+			<param name="" value=""></param>
+			<param key="" name=""></param>
+		</paramList>
+		<parserList>
+			<parser storageKey="">
+				<rule type="" order="" value=""></rule>
+			</parser>
+		</parserList>
+	</action>
+</actionList>
+-->
+</rules>
